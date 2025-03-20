@@ -1,0 +1,307 @@
+{
+  "gameName": "Dual Mastery",
+  "gameVersion": "1.0",
+  "styles": [
+    {
+      "styleName": "Longsword",
+      "styleDescription": "A balanced fighting style based on historical German longsword techniques, featuring tactical stance-switching and powerful strikes.",
+      "styleType": "Martial",
+      "cards": [
+        {
+          "id": "LS-01",
+          "name": "Vom Tag",
+          "subtitle": "From the Roof",
+          "type": "Stance",
+          "stanceType": "Aggressive",
+          "cost": 2,
+          "focusDie": "d8",
+          "effect": "Enter the Vom Tag stance. While in this stance, your attacks deal +1 damage.",
+          "masterEffect": "If you've played 2+ Longsword cards this turn, also draw 1 card when you deal damage.",
+          "flavorText": "The high guard - sword raised above the head, poised to strike with power."
+        },
+        {
+          "id": "LS-02",
+          "name": "Alber",
+          "subtitle": "Fool's Guard",
+          "type": "Stance",
+          "stanceType": "Defensive",
+          "cost": 1,
+          "focusDie": "d6",
+          "effect": "Enter the Alber stance. While in this stance, reduce damage from attacks by 1.",
+          "masterEffect": "If you've played 2+ Longsword cards this turn, also force your opponent to spend +1 energy for their next attack.",
+          "flavorText": "A deceptively vulnerable-looking low guard that invites attack while preparing the perfect counter."
+        },
+        {
+          "id": "LS-03",
+          "name": "Ochs",
+          "subtitle": "Ox Guard",
+          "type": "Stance",
+          "stanceType": "Evasive",
+          "cost": 2,
+          "focusDie": "d8",
+          "effect": "Enter the Ochs stance. While in this stance, when attacked, you may change to a different stance immediately after damage is resolved.",
+          "masterEffect": "If you've played 2+ Longsword cards this turn, reduce the next attack's damage by 2 instead of changing stance.",
+          "flavorText": "The weapon held at head height, pointed forward like an ox's horns, ready to redirect incoming threats."
+        },
+        {
+          "id": "LS-04",
+          "name": "Zwerchhau",
+          "subtitle": "Thwart Strike",
+          "type": "Attack",
+          "cost": 3,
+          "focusDie": "d10",
+          "effect": "Deal 3 damage. If you're in an Aggressive stance, this attack cannot be reduced by defensive effects.",
+          "masterEffect": "If you've played 2+ Longsword cards this turn, also force opponent to exit their current stance.",
+          "flavorText": "A horizontal strike that comes in from an unexpected angle, breaking through guards."
+        },
+        {
+          "id": "LS-05",
+          "name": "Krumphau",
+          "subtitle": "Crooked Strike",
+          "type": "Attack",
+          "cost": 2,
+          "focusDie": "d6",
+          "effect": "Deal 2 damage. If you're in a Defensive stance, draw 1 card.",
+          "masterEffect": "If you've played 2+ Longsword cards this turn, deal 3 damage instead.",
+          "flavorText": "A curved strike aimed at the opponent's hands or forearms, parrying and attacking in one motion."
+        },
+        {
+          "id": "LS-06",
+          "name": "Schielhau",
+          "subtitle": "Squinting Strike",
+          "type": "Attack",
+          "cost": 3,
+          "focusDie": "d8",
+          "effect": "Deal 2 damage. If you're in an Evasive stance, change to an Aggressive stance after this attack resolves.",
+          "masterEffect": "If you've played 2+ Longsword cards this turn, this attack deals +2 damage if you change stance.",
+          "flavorText": "A downward diagonal cut delivered with the 'false' edge, using deception and unexpected angles."
+        },
+        {
+          "id": "LS-07",
+          "name": "Nachreisen",
+          "subtitle": "Following After",
+          "type": "Reaction",
+          "cost": 1,
+          "focusDie": "d4",
+          "effect": "Play when your opponent changes stance. Deal 1 damage and draw 1 card.",
+          "masterEffect": "If you've played 2+ Longsword cards this turn, also enter any stance of your choice without paying its cost.",
+          "flavorText": "The art of exploiting the moment when an opponent transitions, catching them in movement."
+        },
+        {
+          "id": "LS-08",
+          "name": "Winden",
+          "subtitle": "Winding",
+          "type": "Technique",
+          "cost": 2,
+          "focusDie": "d6",
+          "effect": "If you're in a stance, you may change to any other stance. Then deal 1 damage.",
+          "masterEffect": "If you've played 2+ Longsword cards this turn, negate the next stance advantage your opponent would gain against you this turn.",
+          "flavorText": "A flowing technique of binding the opponent's blade while transitioning between positions with control."
+        }
+      ]
+    },
+    {
+      "styleName": "Battle Axe",
+      "styleDescription": "An offense-focused fighting style based on historical Viking and medieval axe techniques, featuring momentum building and powerful cleaving attacks.",
+      "styleType": "Martial",
+      "cards": [
+        {
+          "id": "BA-01",
+          "name": "Høggva",
+          "subtitle": "Cleaving Stance",
+          "type": "Stance",
+          "stanceType": "Aggressive",
+          "cost": 2,
+          "focusDie": "d10",
+          "effect": "Enter the Høggva stance. While in this stance, gain +1 Momentum when you deal damage.",
+          "masterEffect": "If you've played 2+ Battle Axe cards this turn, immediately gain 2 Momentum upon entering this stance.",
+          "flavorText": "The axe held high, body coiled like a spring ready to unleash devastating force."
+        },
+        {
+          "id": "BA-02",
+          "name": "Skjaldborg",
+          "subtitle": "Shield Wall",
+          "type": "Stance",
+          "stanceType": "Defensive",
+          "cost": 2,
+          "focusDie": "d6",
+          "effect": "Enter the Skjaldborg stance. While in this stance, when attacked, you may spend 2 Momentum to reduce damage by 2.",
+          "masterEffect": "If you've played 2+ Battle Axe cards this turn, reduce damage by 3 instead.",
+          "flavorText": "Axes were not just weapons of aggression - the head could hook and the haft could block."
+        },
+        {
+          "id": "BA-03",
+          "name": "Sviða",
+          "subtitle": "Sweeping Guard",
+          "type": "Stance",
+          "stanceType": "Evasive",
+          "cost": 1,
+          "focusDie": "d8",
+          "effect": "Enter the Sviða stance. While in this stance, if an opponent's attack misses or is fully blocked, gain 1 Momentum.",
+          "masterEffect": "If you've played 2+ Battle Axe cards this turn, you may immediately spend Momentum to deal that much damage to your opponent.",
+          "flavorText": "A low, wide stance with the axe ready to sweep across, creating space while preparing to counter."
+        },
+        {
+          "id": "BA-04",
+          "name": "Brotna",
+          "subtitle": "Sunder Strike",
+          "type": "Attack",
+          "cost": 3,
+          "focusDie": "d12",
+          "effect": "Deal 2 damage. You may spend up to 3 Momentum to add that much additional damage.",
+          "masterEffect": "If you've played 2+ Battle Axe cards this turn, this attack also forces your opponent to discard a Focus card.",
+          "flavorText": "A devastating overhead strike designed to break through any defense, splintering wood and metal alike."
+        },
+        {
+          "id": "BA-05",
+          "name": "Krækja",
+          "subtitle": "Hook Pull",
+          "type": "Attack",
+          "cost": 2,
+          "focusDie": "d8",
+          "effect": "Deal 1 damage and pull your opponent into your stance advantage (if any). Gain 1 Momentum.",
+          "masterEffect": "If you've played 2+ Battle Axe cards this turn, also force opponent to exit their current stance.",
+          "flavorText": "Using the axe's head to hook behind a shield or limb, yanking the opponent off-balance."
+        },
+        {
+          "id": "BA-06",
+          "name": "Tvíhenda",
+          "subtitle": "Double-Handed Swing",
+          "type": "Attack",
+          "cost": 3,
+          "focusDie": "d10",
+          "effect": "Deal 3 damage. If you have 4+ Momentum, this attack cannot be reduced by defensive effects.",
+          "masterEffect": "If you've played 2+ Battle Axe cards this turn, gain Momentum equal to the damage dealt.",
+          "flavorText": "A powerful two-handed swing that builds upon previous momentum, unstoppable once in motion."
+        },
+        {
+          "id": "BA-07",
+          "name": "Kasta",
+          "subtitle": "Throwing Axe",
+          "type": "Reaction",
+          "cost": 2,
+          "focusDie": "d6",
+          "effect": "Play when your opponent plays an attack. Deal 2 damage and spend all Momentum. For each Momentum spent, deal +1 damage.",
+          "masterEffect": "If you've played 2+ Battle Axe cards this turn, draw a card after this attack resolves.",
+          "flavorText": "A desperate but effective counter - hurling a smaller axe to interrupt an incoming attack."
+        },
+        {
+          "id": "BA-08",
+          "name": "Bylgjur",
+          "subtitle": "Waves of Force",
+          "type": "Technique",
+          "cost": 1,
+          "focusDie": "d4",
+          "effect": "Gain 2 Momentum. Your next Battle Axe attack costs 1 less to play this turn.",
+          "masterEffect": "If you've played 2+ Battle Axe cards this turn, also draw a card for every 3 Momentum you have.",
+          "flavorText": "A series of rhythmic feints that build power like ocean waves before crashing down upon the enemy."
+        }
+      ]
+    },
+    {
+      "styleName": "Water Magic",
+      "styleDescription": "A fluid fighting style based on redirection and adaptability, featuring reactive abilities and flow mechanics that turn opponents' actions to your advantage.",
+      "styleType": "Magical",
+      "cards": [
+        {
+          "id": "WM-01",
+          "name": "Tidal Form",
+          "subtitle": "Rising and Falling",
+          "type": "Stance",
+          "stanceType": "Defensive",
+          "cost": 2,
+          "focusDie": "d8",
+          "effect": "Enter the Tidal Form stance. While in this stance, whenever you're attacked, gain 1 Flow.",
+          "masterEffect": "If you've played 2+ Water Magic cards this turn, immediately gain 2 Flow upon entering this stance.",
+          "flavorText": "The water rises to meet force, absorbing and collecting energy rather than opposing it directly."
+        },
+        {
+          "id": "WM-02",
+          "name": "Whirlpool Form",
+          "subtitle": "Circular Motion",
+          "type": "Stance",
+          "stanceType": "Evasive",
+          "cost": 2,
+          "focusDie": "d8",
+          "effect": "Enter the Whirlpool Form stance. While in this stance, you may spend 2 Flow to change to any other stance as a reaction to an attack.",
+          "masterEffect": "If you've played 2+ Water Magic cards this turn, also deal 2 damage when you change stance this way.",
+          "flavorText": "The spinning current creates both escape and opportunity, drawing opponents into its spiraling trap."
+        },
+        {
+          "id": "WM-03",
+          "name": "Crashing Wave",
+          "subtitle": "Overwhelming Force",
+          "type": "Stance",
+          "stanceType": "Aggressive",
+          "cost": 3,
+          "focusDie": "d10",
+          "effect": "Enter the Crashing Wave stance. While in this stance, you may spend Flow to add that much damage to your attacks.",
+          "masterEffect": "If you've played 2+ Water Magic cards this turn, your next attack costs 1 less energy to play.",
+          "flavorText": "The gentle ocean becomes a tsunami when its accumulated power finds direction and purpose."
+        },
+        {
+          "id": "WM-04",
+          "name": "Redirect Current",
+          "subtitle": "Path of Least Resistance",
+          "type": "Reaction",
+          "cost": 1,
+          "focusDie": "d6",
+          "effect": "Play when attacked. Reduce damage by 1 and gain Flow equal to the remaining damage taken.",
+          "masterEffect": "If you've played 2+ Water Magic cards this turn, also change to any stance of your choice.",
+          "flavorText": "Water never truly stops an attack - it yields momentarily, only to return with gathered momentum."
+        },
+        {
+          "id": "WM-05",
+          "name": "Drowning Pressure",
+          "subtitle": "Overwhelming Depths",
+          "type": "Attack",
+          "cost": 3,
+          "focusDie": "d8",
+          "effect": "Deal 2 damage. Your opponent must spend 2 energy on their next turn or take 2 additional damage.",
+          "masterEffect": "If you've played 2+ Water Magic cards this turn, gain Flow equal to damage dealt.",
+          "flavorText": "The crushing weight of deep water creates an inescapable dilemma - struggle and exhaust yourself, or accept the inevitable."
+        },
+        {
+          "id": "WM-06",
+          "name": "Eroding Stream",
+          "subtitle": "Persistent Pressure",
+          "type": "Attack",
+          "cost": 2,
+          "focusDie": "d6",
+          "effect": "Deal 1 damage. If you have 3+ Flow, your opponent must discard a Focus card of your choice.",
+          "masterEffect": "If you've played 2+ Water Magic cards this turn, also draw a card.",
+          "flavorText": "Even the hardest stone eventually yields to the patient, persistent touch of flowing water."
+        },
+        {
+          "id": "WM-07",
+          "name": "Mist Veil",
+          "subtitle": "Obscuring Presence",
+          "type": "Technique",
+          "cost": 2,
+          "focusDie": "d4",
+          "effect": "Gain 3 Flow. The next time you would take damage this turn, reduce that damage by 2.",
+          "masterEffect": "If you've played 2+ Water Magic cards this turn, your opponent cannot target you with attacks of 3 or more damage until your next turn.",
+          "flavorText": "The water disperses into countless droplets, making it impossible to strike with precision or power."
+        },
+        {
+          "id": "WM-08",
+          "name": "Flowing Reversal",
+          "subtitle": "Adaptive Response",
+          "type": "Technique",
+          "cost": 1,
+          "focusDie": "d6",
+          "effect": "Spend any amount of Flow. Draw cards equal to half the Flow spent (rounded up).",
+          "masterEffect": "If you've played 2+ Water Magic cards this turn, the next card you play costs 2 less energy.",
+          "flavorText": "The watercourse changes direction instantly when meeting an obstacle, finding a new path forward in response to circumstance."
+        }
+      ]
+    }
+  ],
+  "gameConstants": {
+    "startingHealth": 20,
+    "startingHandSize": 5,
+    "maxHandSize": 7,
+    "cardsPerStyle": 8,
+    "styleCombinationMethod": "any"
+  }
+}

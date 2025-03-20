@@ -1,0 +1,48 @@
+{
+  "imagePrompts": [
+    {
+      "cardID": "LM-01",
+      "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). African American man in stylized Art Deco clothing with angular patterns. Body crackling with electricity, shown as geometric zigzag lines in bright neon blue emanating from limbs. Arms slightly apart with hands open, palms facing upward. Small electric arcs connecting between fingers. Standing in strong geometric pose with one foot slightly forward. Face with determined expression, highlighted by dramatic side lighting. Background with radiating metallic silver rays creating sunburst pattern. Electric charge meter in classic Art Deco font showing numerical value. Floor with reflective black and white checkerboard pattern. Border with zigzag lightning motifs in silver and blue."
+    },
+    {
+      "cardID": "LM-02",
+      "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man surrounded by protective electrical field. Transparent geometric dome of electricity surrounding body, composed of interlocking hexagonal patterns in bright blue. Arms crossed in front of chest in defensive position. Feet planted firmly in wide stance. Face calm but alert with dramatic upward lighting. Background with stylized Art Deco clouds in silver and white. Electric charge reduction symbols (-2) in classic Art Deco typography. Floor with reflective black and white geometric pattern. Small lightning bolts deflecting from electrical shield. Border with horizontal electric current patterns."
+    },
+    {
+      "cardID": "LM-03",
+      "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man partially transformed into electrical energy. Lower half of body dissolving into geometric lightning patterns in bright blue and white. Upper body still solid but with electrical current running across skin in angular patterns. Arms extended outward with hands crackling with energy. Face with expression of controlled transformation. Background with Art Deco speedlines suggesting rapid movement. Distance marker showing range change in classic Art Deco font. Floor with reflective surface showing electrical reflection. Charge meter showing "-3" in stylized typography. Border with vertical energy beam patterns."
+    },
+    {
+      "cardID": "LM-04",
+      "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man launching powerful lightning bolt. Arms thrust forward directing perfect geometric lightning bolt from hands. Lightning bolt rendered as angular zigzag pattern in bright blue and white, extending completely across frame. Body leaning forward with dramatic pose emphasizing power. Face with intense focused expression, dramatically lit from below by electric light. Background with Art Deco storm clouds in silver and dark blue. Charge meter showing variable values with mathematical symbols in Deco typography. Floor with star-burst pattern emanating from feet. Damage value indicators in classic Art Deco numerical style. Border with lightning strike patterns."
+    },
+    {
+      "cardID": "LM-05",
+      "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man creating chain lightning effect. Arms directing multiple branching lightning bolts connecting to several geometric target points. Lightning rendered as interconnected angular patterns with exact 90 and 45 degree angles. Body in balanced stance with weight evenly distributed. Face with expression of precise control. Background with Art Deco building silhouettes in silver and black. Charge meter showing "+1" in stylized typography. Floor with concentric circular patterns. Mathematical formulas in Art Deco style showing damage calculations based on charge. Border with branching electrical circuit patterns."
+    },
+    {
+      "cardID": "LM-06",
+      "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man releasing electrical overload. Arms spread wide with all accumulated charge exploding outward. Massive electrical discharge rendered as geometric starburst pattern with perfect symmetry in bright blue and white. Body arched backward with head tilted up. Face with expression of release and relief. Background with Art Deco theatrical curtain patterns in silver and black. Emptied charge meter with mathematical damage conversion in stylized typography. Floor with cracking geometric pattern from energy release. Card symbol in Art Deco style appearing in corner. Border with electrical discharge patterns radiating outward."
+    },
+    {
+      "cardID": "LM-07",
+      "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man creating electrical field trap. Arms extended to sides directing electrical energy to form barrier. Geometric electrical fence pattern in bright blue cutting across open space in front of him. Opponent (shown as simplified Art Deco silhouette) halted by electrical barrier. Face with expression of tactical control. Background with stylized Art Deco clock face showing interrupted time. Charge meter showing "+2" in stylized typography. Floor with geometric pattern highlighting position control. Dramatic spotlighting from above creating strong shadows. Border with horizontal barrier patterns."
+    },
+    {
+      "cardID": "LM-08",
+      "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man building electrical charge. Body surrounded by concentric rings of electrical energy in bright blue and white. Arms held close to body with hands cupped, containing small ball of concentrated lightning. Standing in balanced pose with feet perfectly positioned. Hair beginning to rise with static electricity. Face with expression of concentration and building power. Background with Art Deco voltage meter design showing increasing levels. Charge meter showing "+3" in stylized typography. Floor with geometric pattern radiating outward from feet. Energy cost reduction symbol in Deco style typography. Border with building intensity patterns from bottom to top."
+    },
+    {
+      "cardID": "LM-L1",
+      "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man, now elderly with white hair and lined face, casting ultimate lightning attack. Arms extended forward directing perfect thunderbolt of unprecedented power. Lightning bolt rendered as extraordinarily complex geometric pattern in intense blue-white with perfect symmetry. Body showing perfect form despite age, with subtle Art Deco styling suggesting ancestry. Face with expression of masterful control. Background with stylized Art Deco storm scene with multiple lightning strikes. Range indicators showing "all ranges" in classic Deco typography. Nullified defense symbols in Deco style. Empty charge meter for following turn. Border with ancestral lightning patterns showing heritage through geometric evolution."
+    },
+    {
+      "cardID": "LM-L2",
+      "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man, now elderly with white hair and lined face, channeling generational current. Surrounded by perfect geometric circuit of electrical energy floating in mid-air. Six concentrated points of electrical charge hovering around body in precise hexagonal arrangement. Arms extended with palms directing energy flow. Face showing strain beneath masterful control. Background with Art Deco family lineage pattern showing electrical mastery. Charge meter showing "+6" in stylized typography. Energy cost reduction symbols in Deco style. Health damage warning symbol for next turn. Border with intricate circuit patterns suggestive of family heritage."
+    },
+    {
+      "cardID": "LM-L3",
+      "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man, now elderly with white hair and lined face, in perpetual electrical storm state. Body completely integrated with electrical storm, rendered as perfect symmetrical cloud of geometric lightning surrounding physical form. Constant lightning bolts striking from cloud to ground around him. Face showing mixture of power and physical toll. Background with Art Deco speed patterns suggesting accelerated attacks. Charge meters showing +2 per turn mechanic in Deco typography. Attack cost reduction mathematical formula in Deco style. Health damage indicator showing toll of maintaining storm. Maximum charge limit (10) indicator in stylized Deco font. Border with perpetual storm patterns emphasizing both power and cost."
+    }
+  ]
+}

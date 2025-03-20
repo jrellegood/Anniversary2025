@@ -1,0 +1,48 @@
+{
+  "imagePrompts": [
+    {
+      "cardID": "LS-01",
+      "prompt": "Single person, fully in frame. Medieval tapestry style. North African woman in simple medieval tunic. Standing with right foot forward 12 inches, left foot back, feet at 45-degree angle. Both arms raised with elbows slightly bent. Both hands gripping longsword handle, right hand near guard, left hand at pommel. Blade held vertically above head, slightly angled back. Looking forward directly at opponent, chin slightly tucked. Torso straight, slightly rotated to right side. Simple castle battlements in background."
+    },
+    {
+      "cardID": "LS-02",
+      "prompt": "Single person, fully in frame. Medieval tapestry style. East Asian man in period clothing. Longsword pointing downward with tip nearly touching ground. Arms extended downward. Hands gripping sword at waist level, right hand at cross-guard, left hand at pommel. Standing with feet shoulder-width apart. Knees slightly bent in stable position. Upper body leaning slightly forward. Expression calm but watchful. Stylized trees in background."
+    },
+    {
+      "cardID": "LS-03",
+      "prompt": "Single person, fully in frame. Medieval tapestry style. Middle Eastern woman in medieval garments. Longsword held at right temple height. Right arm bent with elbow pointing down, left arm partially extended. Hands gripping sword with point aimed directly forward at eye level. Blade angled slightly downward. Left foot forward, right foot at 45-degree angle. Face in profile, eyes focused ahead. Training yard with wooden posts in background."
+    },
+    {
+      "cardID": "LS-04",
+      "prompt": "Single person, fully in frame. Medieval tapestry style. South Asian man in simple medieval clothing. Delivering horizontal sword cut from right to left. Arms extended with sword held horizontally at shoulder height. Right arm fully extended, left arm supporting with tension. Upper body twisted with right shoulder forward. Hips rotated with power. Front knee bent deeply. Sword making contact with opponent's neck area. Simple spectator figures in background."
+    },
+    {
+      "cardID": "LS-05",
+      "prompt": "Single person, fully in frame. Medieval tapestry style. Indigenous woman in period-appropriate attire. Executing diagonal downward strike from left to right. Arms extended with right arm higher than left. Sword angled to strike opponent's forearms or hands. Body rotated sideways. Left foot forward, right foot planted firmly back. Simultaneously deflecting opponent's upraised weapon. Medieval town buildings in background."
+    },
+    {
+      "cardID": "LS-06",
+      "prompt": "Single person, fully in frame. Medieval tapestry style. Black man in medieval tunic and leggings. Delivering downward diagonal cut from right to left. Using false edge (back edge) of longsword. Arms extended with hands crossed slightly. Eyes narrowed, looking along blade. Left shoulder forward, torso twisted for power. Right leg lunging forward, left leg extended back. Breaking through opponent's raised guard. Tournament grounds with colorful banners in background."
+    },
+    {
+      "cardID": "LS-07",
+      "prompt": "Single person, fully in frame. Medieval tapestry style. Woman with fair skin and red hair in medieval dress. Thrusting sword forward with precision. Arms extended with sword point directed at opponent's chest. Back straight, right foot lunging forward. Left leg extended behind. Catching opponent mid-movement as they change position. Body positioned to exploit opening in opponent's defense. Castle walls in background."
+    },
+    {
+      "cardID": "LS-08",
+      "prompt": "Single person, fully in frame. Medieval tapestry style. Latino man in period clothing. Swords crossed with opponent at mid-point. Right arm bent upward, left arm pulling down. Wrists twisted to rotate blade around opponent's weapon. Body pivoting from one stance to another. Weight shifting between feet. Left foot forward, right foot at 90 degrees. Spiral pattern around swords showing twisting motion. Medieval hall with arched windows in background."
+    },
+    {
+      "cardID": "LS-L1",
+      "prompt": "Single person, fully in frame. Medieval tapestry style. Elderly Arab man with white beard in ornate but battle-worn clothing. Executing powerful diagonal cut from right shoulder to left hip. Arms fully extended in follow-through position. Sword held with both hands. Knees bent for stability despite age. Back slightly hunched. Body twisting for maximum power. Perfect form showing mastery through years of practice. Simple family crest or coat of arms in background."
+    },
+    {
+      "cardID": "LS-L2",
+      "prompt": "Single person, fully in frame. Medieval tapestry style. Older East Asian woman with gray hair tied back. Wearing instructor's robes. Right hand drawing sword from waist, left hand extended forward in teaching gesture. Body half-turned to show proper angle. Two younger students visible behind her in simpler versions of the same stance. Left hand holding scrolls or manuscripts. Additional open books and scrolls visible on floor or table nearby."
+    },
+    {
+      "cardID": "LS-L3",
+      "prompt": "Single person, fully in frame. Medieval tapestry style. Elderly Indigenous man with long white hair and weathered face. In perfect defensive stance combining elements of Iron Gate and Crown positions. Sword held horizontally at chest height. Left arm supporting blade near point, right arm gripping handle firmly. Left foot forward, right foot back at 90-degree angle. Knees deeply bent. Upper body leaning slightly forward. Shield motifs in border. Opponent's attack being completely blocked by the sword's forte (strong part of blade)."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "imagePrompts": [
+    {
+      "cardID": "SS-01",
+      "prompt": "Single person, fully in frame. Classical Mediterranean pottery style with strong black silhouette on terracotta background. East Asian woman in Roman legionary stance with large scutum shield raised defensively. Shield held firmly at chest height covering most of body. Shortsword ready behind shield. Feet planted firmly in wide stance. Face showing calm determination visible above shield rim. Clean bold outlines with simplified but anatomically correct figure. Shield details highlighted with minimal white accents. Greek key pattern border. Simple column architecture in background."
+    },
+    {
+      "cardID": "SS-02",
+      "prompt": "Single person, fully in frame. Classical Mediterranean pottery style with strong black silhouette on terracotta background. Middle Eastern man using shield offensively. Shield held at angle with reinforced rim forward as weapon. Shortsword positioned for follow-up strike. Body leaning into aggressive shield stance. Bold dynamic posture showing controlled aggression. Simplified but muscular anatomy in classical heroic proportion. Gold accents highlighting shield edge. Roman laurel border pattern. Simplified battlefield elements in background."
+    },
+    {
+      "cardID": "SS-03",
+      "prompt": "Single person, fully in frame. Classical Mediterranean pottery style with strong black silhouette on terracotta background. Black woman in mobile defensive stance. Shield angled to deflect rather than block directly. Body weight on back foot, ready to pivot. Shortsword held in reserve position. Stance suggesting imminent position change. Dynamic sense of controlled movement in simplified classical form. White highlights on key armor pieces. Meander pattern border. Simple architectural elements suggesting arena setting."
+    },
+    {
+      "cardID": "SS-04",
+      "prompt": "Single person, fully in frame. Classical Mediterranean pottery style with strong black silhouette on terracotta background. Indigenous man executing shield bash technique. Shield thrust forward as offensive weapon. Body weight behind shield push. Opponent partially visible being knocked off balance. Face showing controlled power. Simplified classical anatomy with emphasis on dynamic action. Gold accents on shield boss and rim. Greek key decorative border. Simplified stadium seating elements in background."
+    },
+    {
+      "cardID": "SS-05",
+      "prompt": "Single person, fully in frame. Classical Mediterranean pottery style with strong black silhouette on terracotta background. South Asian woman executing perfect counter-strike. Shield positioned to deflect incoming attack. Shortsword simultaneously thrusting at opponent's exposed area. Perfect balance between defense and offense. Face showing focused concentration. Clean bold outlines with classical anatomical proportions. White highlights on blade edge. Laurel wreath border pattern. Simple classical battlefield elements in background."
+    },
+    {
+      "cardID": "SS-06",
+      "prompt": "Single person, fully in frame. Classical Mediterranean pottery style with strong black silhouette on terracotta background. Latino man in perfectly coordinated attack stance. Shield maintained in protective position while sword strikes. Body showing years of practiced coordination. Perfect balance between offense and defense. Face showing disciplined focus. Classical heroic physique with simplified but accurate anatomy. Gold accents on sword and shield edges. Wave pattern decorative border. Training ground architectural elements in background."
+    },
+    {
+      "cardID": "SS-07",
+      "prompt": "Single person, fully in frame. Classical Mediterranean pottery style with strong black silhouette on terracotta background. Arab woman demonstrating shield technique to unseen students. Shield positioned with subtle expert adjustments. Hands showing precise grip and control. Body in teaching stance. Face showing concentration and expertise. Simplified but technically perfect classical form. White highlights on key shield positions. Geometric Greek pattern border. Simple training yard architectural elements in background."
+    },
+    {
+      "cardID": "SS-08",
+      "prompt": "Single person, fully in frame. Classical Mediterranean pottery style with strong black silhouette on terracotta background. Southeast Asian man in advancing stance with shield forward. Shield raised to protect upper body during movement. Legs showing controlled forward momentum. Shortsword ready behind shield. Face showing alert determination. Bold simplified anatomy in dynamic forward motion. Gold accents on shield rim. Classical architectural border pattern. Battlefield elements showing defensive position in background."
+    },
+    {
+      "cardID": "SS-L1",
+      "prompt": "Single person, fully in frame. Classical Mediterranean pottery style with strong black silhouette on terracotta background. Elderly Black woman in perfect defensive position. Shield positioned to completely deflect incoming attack (shown as spear or weapon bouncing away). Decades of experience visible in perfect technique despite age. Face showing calm mastery. Ancestral symbols faintly visible on shield. White highlights creating ethereal glow around shield edge. Family crest integrated into Greek key border. Classical temple elements in background suggesting timeless technique."
+    },
+    {
+      "cardID": "SS-L2",
+      "prompt": "Single person, fully in frame. Classical Mediterranean pottery style with strong black silhouette on terracotta background. Elderly Latino man executing perfect counter-attack. Shield already deflected attack (shown as broken weapon). Shortsword delivering decisive strike using opponent's opening. White hair and lined face showing age. Body showing perfect form condensed from generations of knowledge. Gold highlights on blade showing ancestral power. Familial symbols integrated into laurel border. Simple classical architecture with family crest or banner in background."
+    },
+    {
+      "cardID": "SS-L3",
+      "prompt": "Single person, fully in frame. Classical Mediterranean pottery style with strong black silhouette on terracotta background. Elderly East Asian woman in ultimate defensive stance. Massive shield creating nearly complete coverage. Perfect positioning showing decades of refinement. White hair and weathered face visible above shield. Body showing strain of maintaining perfect form despite age. Glowing white highlights on shield face suggesting ancestral protection. Family symbols integrated into shield design. Elaborate Greek architectural border with protective symbols. Simple battlefield with fallen enemies in background."
+    }
+  ]
+}

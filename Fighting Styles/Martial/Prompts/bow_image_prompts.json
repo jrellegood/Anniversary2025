@@ -1,0 +1,48 @@
+{
+  "imagePrompts": [
+    {
+      "cardID": "BW-01",
+      "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. English longbowman at full draw, muscles locked in perfect tension. Bow fully drawn, string touching archer's cheek. Right arm pulled back with three fingers on string, left arm extended holding bow. Stance side-on to target, feet shoulder-width apart. Face showing intense concentration. Gold leaf highlights bow limbs and arrow. Background shows atmospheric misty mountains in brush painting style. Decorative border with English and Japanese archery motifs. Subtle gold accents illuminating the trajectory line of the aimed arrow."
+    },
+    {
+      "cardID": "BW-02",
+      "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. Mongolian horse archer in light-footed stance, constantly shifting position. Body turned sideways, knees bent, ready to move in any direction. Bow held at ready position but not drawn. Arrow nocked loosely. Feet positioned for quick directional change. Background shows open steppes with flowing brush strokes suggesting wind and space. Gold leaf accents on archer's movement path. Decorative border with horse motifs and flowing patterns. Atmospheric clouds suggesting mobility and changing positions."
+    },
+    {
+      "cardID": "BW-03",
+      "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. Middle Eastern archer in defensive position, partially concealed behind stylized terrain. Bow held horizontally, half-drawn. Body crouched low, minimizing target profile. Only eyes and bow visible from protected position. Background shows mountainous terrain with brush stroke technique. Gold leaf highlights the safe zone around archer. Decorative border featuring interlaced geometric patterns from Islamic art and protective symbols. Atmospheric rendering of distance between archer and unseen opponent."
+    },
+    {
+      "cardID": "BW-04",
+      "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. Japanese Kyudo archer at the moment of perfect release (hanare). Bow vertical and tall, right arm fully extended backward, left arm stretched forward. Body perfectly still in formal standing position. Arrow just leaving bow in perfect trajectory. Face showing complete focus and mushin (no-mind). Background shows distant target with minimalist brush painting aesthetic. Gold leaf tracing arrow's perfect path to target. Decorative border with Zen circles and Japanese archery equipment. Dramatic empty space conveying distance and precision."
+    },
+    {
+      "cardID": "BW-05",
+      "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. English war archer releasing multiple arrows in rapid succession. Hands in blur of motion (shown with multiple transparency overlays). Quiver open with arrows ready for quick access. Body in wide stance for stability. Face showing concentration amid rapid movement. Background shows battlefield with minimalist brush strokes suggesting chaos. Gold leaf accents highlighting the multiple arrows in flight. Decorative border with notched time-marking patterns suggesting rapid rhythm. Dynamic brush strokes contrasting with precise illuminated details."
+    },
+    {
+      "cardID": "BW-06",
+      "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. Archer at point-blank range just releasing powerful shot. Standing extremely close to partially-visible opponent. Body already beginning backward leap away from target. Bow almost touching opponent. Face showing decisive intensity. Arrow just leaving bow with maximum power. Background shows close quarters with atmospheric brush strokes suggesting confined space. Gold leaf highlighting impact point and escape path. Decorative border with interlaced close and far range symbols. Dynamic movement lines in brushwork style showing backward leap."
+    },
+    {
+      "cardID": "BW-07",
+      "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. Parthian shot technique - archer in mid-backward roll while simultaneously drawing bow. Body in fluid defensive motion, halfway through backward evasion. Arrow nocked and partially drawn despite retreat. Feet leaving ground in athletic backward motion. Face looking over shoulder at pursuer. Background shows brush-painted terrain with flowing lines suggesting retreat path. Gold leaf accents highlighting defensive zone created by movement. Decorative border with spiral patterns suggesting tactical withdrawal. Atmospheric rendering suggesting the transition from close to far range."
+    },
+    {
+      "cardID": "BW-08",
+      "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. Archer in methodical preparation stance. Carefully selecting and examining perfect arrow from quiver. Bow held in left hand at ready. Right hand bringing chosen arrow to nocking point with precision. Eyes focused on arrow quality and straightness. Face showing calm assessment. Background shows practice range with brush painting aesthetic. Gold leaf highlighting the perfect arrow being chosen. Decorative border with measurement and precision tools from different archery traditions. Atmospheric calm created with minimal brush strokes."
+    },
+    {
+      "cardID": "BW-L1",
+      "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. Elderly master archer with white beard in perfect shooting form despite age. Bow fully drawn with textbook precision. Arrow aligned perfectly with eye line. Ancient ornate bow with family symbols. Hands showing aged knuckles but perfect position. Face serene with lifetime of mastery. Background shows impossibly distant target with brush-style atmospheric perspective. Gold leaf creating luminous glow around arrow and bowstring. Decorative border with generational archery symbols showing evolution of technique. Subtle ancestral figures in misty brush strokes watching from background."
+    },
+    {
+      "cardID": "BW-L2",
+      "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. Aging archery teacher demonstrating perfect positioning to unseen students. Standing at optimal range from targets. White-haired archer in formal teaching stance, one hand indicating proper distance with measuring gesture. Bow in other hand held at perfect angle. Body positioned for maximum range advantage. Face showing wisdom of experience. Background shows multiple targets at various distances in brush painting style. Gold leaf illuminating the optimal position and range lines. Decorative border with scroll-like instructional diagrams. Atmospheric mist suggesting the passing of knowledge through generations."
+    },
+    {
+      "cardID": "BW-L3",
+      "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. Elderly archer in perfect defensive stance. Gray-haired fighter instantly repositioning to far range. Body showing controlled evasion despite age. Bow raised as shield while moving. Arrow nocked and ready despite defensive posture. Face showing strategic calculation. Background shows brush-painted terrain with clear path of tactical retreat. Gold leaf highlighting protective bubble around archer and optimal distance. Decorative border with shield-like motifs from various archery cultures. Atmospheric brush work showing the transition between ranges and the aging archer's mastery of defensive space."
+    }
+  ]
+}

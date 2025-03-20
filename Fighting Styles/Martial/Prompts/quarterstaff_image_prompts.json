@@ -1,0 +1,48 @@
+{
+  "imagePrompts": [
+    {
+      "cardID": "QS-01",
+      "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Black woman in flowing robes holding quarterstaff high in overhead guard position. Staff held horizontally above head with both hands. Powerful stance with front foot firmly planted. Dynamic brushstrokes suggesting readiness to strike downward. Face showing focused concentration. Minimal background with suggestion of mountain forms in light wash. Negative space used to emphasize height advantage. Red seal mark in corner. Bamboo-inspired border elements with flowing brush patterns."
+    },
+    {
+      "cardID": "QS-02",
+      "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Latino man in simple garments in low defensive stance. Quarterstaff held horizontally near ground with one end almost touching earth. Body crouched with center of gravity low. Feet positioned wide for stability. Expression calm but alert. Brushstrokes heavier at bottom suggesting grounded energy. Subtle landscape elements suggesting rocky terrain. Generous negative space above figure emphasizing lowered position. Bamboo-motif border with protective symbols. Red seal mark in lower corner."
+    },
+    {
+      "cardID": "QS-03",
+      "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Middle Eastern woman in centered stance with quarterstaff held horizontally at waist height. Body perfectly balanced between advance and retreat. Feet positioned for immediate movement in any direction. Staff creating central line across composition. Face showing mindful awareness. Brushstrokes suggesting circular movement possibilities. Minimal background with suggestion of path through misty space. Negative space used to show potential movement directions. Red seal mark in corner. Circular patterns in border suggesting flexibility."
+    },
+    {
+      "cardID": "QS-04",
+      "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. East Asian man executing powerful forward thrust with quarterstaff. Body extending with perfect alignment. Staff held with hands separated for optimal leverage. Forward foot stepping into thrust. Rear foot providing stability. Face showing focused power. Dynamic brushstrokes suggesting forward momentum. Subtle wash suggesting changing environmental position. Negative space ahead of thrust implying range control. Energetic linear border elements. Red seal mark in corner balance with forward motion."
+    },
+    {
+      "cardID": "QS-05",
+      "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Indigenous woman performing sweeping circular strike with quarterstaff. Body pivoting with staff extended in wide arc. Feet rooted but body in rotation. Staff creating circular pattern with blurred brush techniques. Face centered and controlled amid movement. Brushstrokes showing centrifugal force of sweeping motion. Minimal environmental elements being affected by staff sweep. Negative space emphasizing the circular clearing created by technique. Spiral patterns in border. Red seal mark integrated into circular composition."
+    },
+    {
+      "cardID": "QS-06",
+      "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. South Asian man in mid-transition strike. Body showing two overlapping positions in one fluid movement. Quarterstaff striking at close range then transitioning to far position. Feet showing movement between stances. Multiple semi-transparent brush outlines showing transition. Face focused through position change. Dynamic brushwork suggesting movement through space. Background with subtle depth indicators. Negative space between positions emphasizing range control. Flowing border patterns suggesting continuous motion. Two red seal marks at different positions."
+    },
+    {
+      "cardID": "QS-07",
+      "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Arab man in defensive parry with quarterstaff. Staff positioned horizontally to intercept incoming attack (shown as fading brushstroke). Body already pivoting to change position after block. Feet in transition between stances. Face alert but calm during defense. Fluid brushstrokes showing simultaneous defense and position change. Minimal suggested opponent form in negative space. Environmental elements showing spatial transition. Border with protective symbols and movement patterns. Red seal mark in corner balanced with defensive position."
+    },
+    {
+      "cardID": "QS-08",
+      "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Black man demonstrating perfect positional flow with quarterstaff. Body in mid-step between positions. Staff creating diagonal line through composition. Feet showing precise placement for optimal stance. Hands repositioning on staff during movement. Face showing inner focus on positioning. Light, economical brushstrokes suggesting effortless movement. Background showing suggested pathways through space. Negative space used to show potential movement options. Flowing water-inspired border patterns. Red seal mark integrated with movement path."
+    },
+    {
+      "cardID": "QS-L1",
+      "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Elderly Latino man executing perfect combination attack. Body shown in multiple overlaid positions capturing sequence of moves. Quarterstaff striking, changing range, and striking again in single flowing movement. White hair and aged face contrasting with perfect technique. Hands showing slight tremor despite perfect staff position. Dynamic brushstrokes with varying ink density showing power of sequence. Multiple faint ancestral figures suggested in background. Negative space creating rhythm between strike positions. Complex border showing movement evolution. Multiple red seal marks tracking the combination sequence."
+    },
+    {
+      "cardID": "QS-L2",
+      "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Elderly East Asian woman demonstrating perfect positioning mastery. Body positioned at ideal tactical point in space. Quarterstaff creating perfect angle for both defense and offense. Aged hands positioned with decades of refinement on staff. White hair and lined face showing age contrasting with perfect form. Subtle directional brush lines showing optimal positioning in space. Environmental elements emphasizing perfect tactical position. Negative space creating clear zones of control. Geometric border patterns showing spatial mastery. Red seal mark positioned at key tactical point in composition."
+    },
+    {
+      "cardID": "QS-L3",
+      "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Elderly Indigenous man in perfect defensive stance. Body showing subtle strain of maintaining ideal form despite age. Quarterstaff creating protective zone around figure. Changing position while maintaining defense (shown through multiple semi-transparent positions). White hair and weathered face showing years of experience. Brushwork showing both strength and fragility of aging master. Attack brushstrokes being diverted by staff position. Negative space showing safe zones created by defense. Protective circular border patterns. Red seal mark integrated with defensive position."
+    }
+  ]
+}

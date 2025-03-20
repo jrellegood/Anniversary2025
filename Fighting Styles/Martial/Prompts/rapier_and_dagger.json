@@ -1,0 +1,48 @@
+{
+  "imagePrompts": [
+    {
+      "cardID": "RD-01",
+      "prompt": "Single person, fully in frame. Italian Renaissance chiaroscuro drawing style with red chalk on cream paper. Noble Italian woman in high guard stance. Rapier raised overhead with right arm extended upward at 45-degree angle, left hand holding dagger low at waist level. Body in classical contrapposto pose. Face in determined profile. Strong directional lighting from upper right. Precise anatomical lines. Cross-hatching shadows. 16th century Italian doublet, slashed sleeves. Wooden-floored fencing school interior with weapon racks. Renaissance-style measurement marks in margins."
+    },
+    {
+      "cardID": "RD-02",
+      "prompt": "Single person, fully in frame. Italian Renaissance chiaroscuro drawing style with red chalk on cream paper. Noble Italian woman in mid-guard position. Rapier extended horizontally at chest height with right arm, left arm bent with dagger raised near right shoulder to protect. Feet at 90-degree angle, weight centered. Face in calm profile. Dramatic side lighting from left. Detailed anatomical rendering of tensed forearms. Fine hatching for texture. 16th century Italian fencing clothes with puffy upper sleeves. Italian fencing school with circular floor markings. Leonardo-style technical notations in margins."
+    },
+    {
+      "cardID": "RD-03",
+      "prompt": "Single person, fully in frame. Italian Renaissance chiaroscuro drawing style with red chalk on cream paper. Noble Italian woman in low defensive stance. Rapier pointed downward at 45-degree angle near right knee, dagger held horizontally at abdomen level. Weight on back foot, front foot extended. Face alert, looking sideways. Lighting creating negative space to her right. Precise anatomical detail of bent knees. Delicate hatching showing fabric folds. 16th century Italian vest over linen shirt. Fencing school with tall windows casting dramatic light beams. Geometric position diagrams in margins."
+    },
+    {
+      "cardID": "RD-04",
+      "prompt": "Single person, fully in frame. Italian Renaissance chiaroscuro drawing style with red chalk on cream paper. Noble Italian woman in lunging thrust. Right arm and rapier creating perfect horizontal line aimed at chest level. Left arm with dagger raised defensively. Right leg bent at 90 degrees, left leg fully extended behind. Head aligned with forward arm. Dramatic spotlighting on extended blade. Detailed anatomical rendering of stretched leg muscles. Precise cross-hatching creating depth. 16th century Italian fencing skirt over leggings. Fencing school with instructor's platform visible. Angular measurement lines in margins."
+    },
+    {
+      "cardID": "RD-05",
+      "prompt": "Single person, fully in frame. Italian Renaissance chiaroscuro drawing style with red chalk on cream paper. Noble Italian woman executing diagonal cut. Rapier slashing downward from upper right to lower left, dagger following in parallel cut below. Torso twisted with right shoulder forward. Feet pivoting in coordinated motion. Face in three-quarter view showing concentration. Strong side lighting emphasizing blade angles. Precisely rendered hand grips on weapons. Dynamic hatching suggesting motion blur. 16th century Italian fencing jacket with decorative trim. Fencing school with diagrams mounted on walls. Anatomical movement studies in margins."
+    },
+    {
+      "cardID": "RD-06",
+      "prompt": "Single person, fully in frame. Italian Renaissance chiaroscuro drawing style with red chalk on cream paper. Noble Italian woman in downward stabbing position. Rapier angled at 60 degrees downward with right arm extended, dagger held horizontally across chest with left hand. Body aligned in perfect profile. Right foot forward, left foot back at 45 degrees. Face in complete concentration. Overhead lighting casting dramatic downward shadows. Meticulously detailed hand positions showing proper finger placement. Fine parallel hatching on blade surfaces. 16th century Italian fitted doublet with slashed sleeves. Fencing school with wooden practice dummy. Mathematical angle studies in margins."
+    },
+    {
+      "cardID": "RD-07",
+      "prompt": "Single person, fully in frame. Italian Renaissance chiaroscuro drawing style with red chalk on cream paper. Noble Italian woman in counter-attack position. Left arm with dagger raised horizontally deflecting faint incoming blade line, right arm simultaneously thrusting rapier forward at shoulder height. Body pivoting between defensive and offensive stance. Face turned sharply showing split-second reaction. Dramatic lighting highlighting blade intersection point. Extraordinarily detailed crossed blades with proper angle. Dynamic short hatching lines showing paused action. 16th century Italian corset over flowing shirt. Fencing school with weapon wall display. Sequential timing marks in margins."
+    },
+    {
+      "cardID": "RD-08",
+      "prompt": "Single person, fully in frame. Italian Renaissance chiaroscuro drawing style with red chalk on cream paper. Noble Italian woman mid-step in circular movement. Left foot crossing behind right in smooth arc. Rapier held horizontally at waist height while dagger held vertically in guard position. Upper body remained centered while lower body rotates. Face looking over shoulder tracking invisible opponent. Light creating curved shadow pattern following movement path. Anatomically precise leg positioning mid-step. Circular hatching patterns on floor. 16th century Italian divided skirt allowing movement. Fencing school with geometric floor patterns. Footwork diagram studies in margins."
+    },
+    {
+      "cardID": "RD-L1",
+      "prompt": "Single person, fully in frame. Italian Renaissance chiaroscuro drawing style with red chalk on cream paper. Elderly noble Italian woman in perfect attacking form. Rapier extended at exact horizontal with unwavering precision. Dagger positioned at perfect 45-degree angle above. White hair in tight bun, face lined with age yet showing mastery. Body showing perfect form despite visible age. Dramatic spotlight effect on blade point. Fine tremor in arm muscles shown through delicate hatching. Luminous cross-hatching techniques on blade. 16th century Italian master's fencing clothes with rank insignia. Fencing school with family crest shield mounted prominently. Multi-generational technique notations in margins with different handwriting styles."
+    },
+    {
+      "cardID": "RD-L2",
+      "prompt": "Single person, fully in frame. Italian Renaissance chiaroscuro drawing style with red chalk on cream paper. Elderly noble Italian woman demonstrating weapon angles. Hands holding rapier and dagger to create perfect geometric relationship between blades. White hair with thin master's circlet, deeply lined face in profile. Weapons creating mathematical precision despite aged hands. Strong directional light emphasizing the precise 60-degree angle between weapons. Exceptionally detailed aged knuckles with perfect form. Refined hatching creating luminous quality around weapons. 16th century Italian master's robes with embroidered emblems. Fencing school with blurred students watching in background. Complex geometric blade angle studies in margins."
+    },
+    {
+      "cardID": "RD-L3",
+      "prompt": "Single person, fully in frame. Italian Renaissance chiaroscuro drawing style with red chalk on cream paper. Elderly noble Italian woman in impenetrable defensive position. Rapier and dagger crossed at chest height creating protective X formation. White braided hair with master's pins, weathered face showing lifetime of experience. Body positioned in classical defensive stance despite visible age. Dramatic lighting creating protective halo effect around crossed blades. Fine anatomical details showing subtle strain in neck muscles. Masterful radial hatching creating dimensional protective sphere. 16th century Italian grandmaster's attire with family symbols embroidered. Fencing school interior with historic rapiers displayed on wall. Defensive zone diagrams in margins showing optimal protection angles."
+    }
+  ]
+}

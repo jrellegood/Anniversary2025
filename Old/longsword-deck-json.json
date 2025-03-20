@@ -1,0 +1,97 @@
+{
+  "styleName": "Longsword",
+  "styleDescription": "A balanced fighting style based on historical German longsword techniques, featuring tactical stance-switching and powerful strikes.",
+  "cards": [
+    {
+      "id": "LS-01",
+      "name": "Vom Tag",
+      "subtitle": "From the Roof",
+      "type": "Stance",
+      "stanceType": "Aggressive",
+      "cost": 2,
+      "focusDie": "d8",
+      "effect": "Enter the Vom Tag stance. While in this stance, your attacks deal +1 damage.",
+      "masterEffect": "If you've played 2+ Longsword cards this turn, also draw 1 card when you deal damage.",
+      "flavorText": "The high guard - sword raised above the head, poised to strike with power."
+    },
+    {
+      "id": "LS-02",
+      "name": "Alber",
+      "subtitle": "Fool's Guard",
+      "type": "Stance",
+      "stanceType": "Defensive",
+      "cost": 1,
+      "focusDie": "d6",
+      "effect": "Enter the Alber stance. While in this stance, reduce damage from attacks by 1.",
+      "masterEffect": "If you've played 2+ Longsword cards this turn, also force your opponent to spend +1 energy for their next attack.",
+      "flavorText": "A deceptively vulnerable-looking low guard that invites attack while preparing the perfect counter."
+    },
+    {
+      "id": "LS-03",
+      "name": "Ochs",
+      "subtitle": "Ox Guard",
+      "type": "Stance",
+      "stanceType": "Evasive",
+      "cost": 2,
+      "focusDie": "d8",
+      "effect": "Enter the Ochs stance. While in this stance, when attacked, you may change to a different stance immediately after damage is resolved.",
+      "masterEffect": "If you've played 2+ Longsword cards this turn, reduce the next attack's damage by 2 instead of changing stance.",
+      "flavorText": "The weapon held at head height, pointed forward like an ox's horns, ready to redirect incoming threats."
+    },
+    {
+      "id": "LS-04",
+      "name": "Zwerchhau",
+      "subtitle": "Thwart Strike",
+      "type": "Attack",
+      "cost": 3,
+      "focusDie": "d10",
+      "effect": "Deal 3 damage. If you're in an Aggressive stance, this attack cannot be reduced by defensive effects.",
+      "masterEffect": "If you've played 2+ Longsword cards this turn, also force opponent to exit their current stance.",
+      "flavorText": "A horizontal strike that comes in from an unexpected angle, breaking through guards."
+    },
+    {
+      "id": "LS-05",
+      "name": "Krumphau",
+      "subtitle": "Crooked Strike",
+      "type": "Attack",
+      "cost": 2,
+      "focusDie": "d6",
+      "effect": "Deal 2 damage. If you're in a Defensive stance, draw 1 card.",
+      "masterEffect": "If you've played 2+ Longsword cards this turn, deal 3 damage instead.",
+      "flavorText": "A curved strike aimed at the opponent's hands or forearms, parrying and attacking in one motion."
+    },
+    {
+      "id": "LS-06",
+      "name": "Schielhau",
+      "subtitle": "Squinting Strike",
+      "type": "Attack",
+      "cost": 3,
+      "focusDie": "d8",
+      "effect": "Deal 2 damage. If you're in an Evasive stance, change to an Aggressive stance after this attack resolves.",
+      "masterEffect": "If you've played 2+ Longsword cards this turn, this attack deals +2 damage if you change stance.",
+      "flavorText": "A downward diagonal cut delivered with the 'false' edge, using deception and unexpected angles."
+    },
+    {
+      "id": "LS-07",
+      "name": "Nachreisen",
+      "subtitle": "Following After",
+      "type": "Reaction",
+      "cost": 1,
+      "focusDie": "d4",
+      "effect": "Play when your opponent changes stance. Deal 1 damage and draw 1 card.",
+      "masterEffect": "If you've played 2+ Longsword cards this turn, also enter any stance of your choice without paying its cost.",
+      "flavorText": "The art of exploiting the moment when an opponent transitions, catching them in movement."
+    },
+    {
+      "id": "LS-08",
+      "name": "Winden",
+      "subtitle": "Winding",
+      "type": "Technique",
+      "cost": 2,
+      "focusDie": "d6",
+      "effect": "If you're in a stance, you may change to any other stance. Then deal 1 damage.",
+      "masterEffect": "If you've played 2+ Longsword cards this turn, negate the next stance advantage your opponent would gain against you this turn.",
+      "flavorText": "A flowing technique of binding the opponent's blade while transitioning between positions with control."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "imagePrompts": [
+    {
+      "cardID": "BA-01",
+      "prompt": "Single person, fully in frame. Nordic woodcut style with bold black lines and high contrast. Viking warrior with muscular build, raising battle axe high above head with both hands. Feet braced wide apart in strong stance. Arms fully extended upward, muscles visibly tensed like a coiled spring. Determined expression, ready to deliver devastating cleave. Simple Norse knotwork border. Background shows stylized mountain silhouettes. Bold runes in corners. Harsh lighting creates dramatic shadows."
+    },
+    {
+      "cardID": "BA-02",
+      "prompt": "Single person, fully in frame. Nordic woodcut style with angular lines and stark contrast. Shield maiden in defensive position, using axe haft horizontally to deflect incoming strike. Body angled sideways to present smaller target. Right hand gripping upper shaft, left hand at base. Broad axe head positioned to catch and redirect enemy weapons. Shield on back. Braided hair. Simple Norse ship in background. Protective runes carved into border."
+    },
+    {
+      "cardID": "BA-03",
+      "prompt": "Single person, fully in frame. Nordic woodcut style with dramatic shadows and bold strokes. Agile Norse warrior keeping battle axe in constant sweeping motion at waist height. Body in fluid stance, knees bent, ready to move in any direction. Axe creating visible arc of movement (shown through stylized motion lines). Successfully deflecting incoming attack. Background shows battlefield elements with fallen shields. Circular rune border suggesting continuous motion."
+    },
+    {
+      "cardID": "BA-04",
+      "prompt": "Single person, fully in frame. Nordic woodcut style with extreme contrast and heavy lines. Massive Viking berserker mid-strike with huge battle axe. Powerful overhead chop with full body weight behind it. Muscles straining, veins visible, face contorted with battle rage. Axe blade shattering enemy shield (partially visible). Dramatic downward angle. Background shows battle chaos in simplified angular forms. Thunder clouds overhead. Power runes etched in axe blade gleaming with energy."
+    },
+    {
+      "cardID": "BA-05",
+      "prompt": "Single person, fully in frame. Nordic woodcut style with sharp angles and stark black/white contrast. Cunning Viking fighter using axe hook technique. Beard with intricate braids. Battle axe extended forward with hook feature behind shield/limb of opponent. Mid-pull motion yanking opponent off-balance. Left foot braced back for leverage. Right arm fully extended, left arm tensed. Background shows rocky coastal terrain. Border features hook patterns and curved elements."
+    },
+    {
+      "cardID": "BA-06",
+      "prompt": "Single person, fully in frame. Nordic woodcut style with powerful gestural lines and bold shadows. Warrior with long-handled Dane axe gripped with hands wide apart. Mid-swing in devastating arc that cuts through air with unstoppable force. Body twisted for maximum rotational power. Cape or cloak flowing with swing momentum. Hair and beard windswept by force of own movement. Axe blade catching light dramatically. Background shows standing stones. Spiral patterns in border suggesting centrifugal force."
+    },
+    {
+      "cardID": "BA-07",
+      "prompt": "Single person, fully in frame. Nordic woodcut style with kinetic lines and stark highlights. Viking warrior in midst of throwing small axe with perfect form. Right arm extended in follow-through position. Body twisted, weight on back foot. Small throwing axe spinning through air toward unseen target. Main battle axe strapped to back. Background shows simple enemy silhouettes. Dramatic action lines showing axe trajectory. Border with small repeating axe motifs."
+    },
+    {
+      "cardID": "BA-08",
+      "prompt": "Single person, fully in frame. Nordic woodcut style with rhythmic patterns and bold strokes. Focused warrior performing practice swings with battle axe in deliberate pattern. Multiple axes shown in different positions to indicate sequence of movement (ghost images). Building momentum with each swing. Feet in stable stance, body showing controlled power. Eyes focused ahead. Simple training ground background. Wave-like patterns in border echoing the building momentum theme."
+    },
+    {
+      "cardID": "BA-L1",
+      "prompt": "Single person, fully in frame. Nordic woodcut style with dramatic shadows and weathered textures. Elderly Norse chieftain with battle-scarred face and long white beard executing perfect axe cleave. Ancient battle axe with ornate carvings and family symbols. Body showing perfect form despite age. Spectral ancestral figures faintly visible behind him, guiding the strike. Axe glowing with power. Background shows Yggdrasil (world tree) motif. Ancient runes in border glowing with same energy as axe."
+    },
+    {
+      "cardID": "BA-L2",
+      "prompt": "Single person, fully in frame. Nordic woodcut style with layered textures and deep shadows. Aging warrior with gray-streaked beard demonstrating perfect axe technique to younger fighters (shown smaller in background). Axe held at precise angle showing mastery of momentum. Body positioned for maximum efficiency with minimal strain. Younger warriors watching intently. Background shows simple Viking longhouse interior. Border contains ancestral axe designs showing evolution of the weapon through generations."
+    },
+    {
+      "cardID": "BA-L3",
+      "prompt": "Single person, fully in frame. Nordic woodcut style with protective symbols and stark contrast. Elder shield-maiden in defensive stance with battle axe held horizontally as barrier. White braided hair and lined face showing age. Perfect defensive posture intercepting incoming attack. Attack shown as broken/diverted by her technique. Body showing strain of impact. Family shield or crest visible on armor or background. Protective bind-runes in border. Background shows fortress wall, suggesting last line of defense."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "environmentName": "Forest",
+  "environmentDescription": "Dense woodland with restricted visibility, natural obstacles, and shifting shadows. Combat here rewards stealth, ambush tactics, and territorial control.",
+  "cards": [
+    {
+      "id": "ENV-F01",
+      "name": "Dense Underbrush",
+      "type": "Terrain",
+      "effect": "Aggressive stances cost +1 energy to enter. Players in Evasive stances cannot be targeted by attacks from opponents who changed stance this turn.",
+      "duration": "Until next environment change",
+      "flavorText": "Thick ferns and brambles restrict movement but provide perfect hiding spots for those who know how to use them."
+    },
+    {
+      "id": "ENV-F02",
+      "name": "Dappled Sunlight",
+      "type": "Condition",
+      "effect": "After playing a card, if it's the first card you've played this turn, you may roll that card's focus die. On a result of max value, draw a card.",
+      "duration": "Until next environment change",
+      "flavorText": "Fragments of light break through the canopy, creating moments of clarity amid shadows."
+    },
+    {
+      "id": "ENV-F03",
+      "name": "Ancient Roots",
+      "type": "Hazard",
+      "effect": "When a player changes stance, they must immediately roll a d6. On a 1-2, they take 1 damage as they trip on hidden roots.",
+      "duration": "Until next environment change",
+      "flavorText": "The forest's ancient denizens reach up from below, claiming territory they've held for centuries."
+    },
+    {
+      "id": "ENV-F04",
+      "name": "Whispering Leaves",
+      "type": "Mystical",
+      "effect": "The first card drawn each turn must be revealed. If it's a stance card, it costs -1 energy to play this turn.",
+      "duration": "Until next environment change",
+      "flavorText": "The rustling canopy seems to whisper secrets, revealing intentions to those who listen."
+    },
+    {
+      "id": "ENV-F05",
+      "name": "Treacherous Path",
+      "type": "Hazard",
+      "effect": "When a player plays an attack card, roll their stance's focus die. If the result is 1, the attack misses and deals no damage.",
+      "duration": "Until next environment change",
+      "flavorText": "Uneven ground with hidden pitfalls can turn a perfect strike into a stumbling failure."
+    },
+    {
+      "id": "ENV-F06",
+      "name": "Natural Shelter",
+      "type": "Terrain",
+      "effect": "Players in Defensive stances reduce all damage by an additional 1. Players in Aggressive stances deal -1 damage with attacks.",
+      "duration": "Until next environment change",
+      "flavorText": "The forest provides abundant cover, favoring those who wait and defend rather than charge blindly."
+    },
+    {
+      "id": "ENV-F07",
+      "name": "Forest Spirits",
+      "type": "Mystical",
+      "effect": "Magical approach cards cost -1 energy to play. At the end of each turn, each player rolls a d6. On a 1, they lose 1 energy from their focus pool for disturbing the spirits.",
+      "duration": "Until next environment change",
+      "flavorText": "Ancient presences watch from hollow trees and mossy stones, blessing those who respect their domain and punishing those who don't."
+    },
+    {
+      "id": "ENV-F08",
+      "name": "Fallen Hollow Log",
+      "type": "Terrain",
+      "effect": "Each player may use the effect: 'Once per turn, discard a card to draw a card and gain 1 energy to your focus pool.'",
+      "duration": "Until next environment change",
+      "flavorText": "A massive fallen tree provides a momentary refuge, a place to catch one's breath and reassess strategy."
+    }
+  ]
+}

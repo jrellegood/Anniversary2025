@@ -1,0 +1,48 @@
+{
+  "imagePrompts": [
+    {
+      "cardID": "FM-01",
+      "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Eastern European woman with strong facial features standing confidently. Body surrounded by angular, geometric flame shapes in bright red and orange. Arms slightly raised at sides with stylized fire spiraling around them. Hands open with small flame geometric shapes hovering above palms. Wearing simple black clothing with red accents. Background divided into geometric shapes with yellow-to-red gradient suggesting heat. Bold diagonal lines creating dynamic composition. Simplified propaganda-style face with determined expression. Large sans-serif Cyrillic-inspired text blocks in corners creating frame."
+    },
+    {
+      "cardID": "FM-02",
+      "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman in defensive position. Simplified geometric ember shapes orbiting around body in perfect circular pattern. Arms positioned in protective X-shape across chest. Standing firmly with feet shoulder-width apart. Wearing simple black clothing with red accents. Small geometric flame shapes striking outward from circular ember orbit. Background with radiating triangular shapes in yellow-to-red gradient. Bold circular composition centered on figure. Face showing stern, protective expression. Propaganda-style text blocks in semi-circle above head. Strong black outline separating figure from fiery background."
+    },
+    {
+      "cardID": "FM-03",
+      "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman in smoke form. Body partially transformed into geometric smoke shapes rendered in black and gray with red edges. Form appears to be dissipating with angular smoke fragments separating from main body. Lower half of body completely transformed into triangular smoke shapes. Upper half still recognizable but with geometric fragmentation. Wearing simple black clothing now merging with smoke form. Background with diagonal yellow lines suggesting movement direction. Face still visible but partially obscured by smoke effect. Propaganda-style text at bottom of composition. Strong contrasting shapes creating sense of transformation."
+    },
+    {
+      "cardID": "FM-04",
+      "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman in offensive casting pose. Arms extended forward with hands directing large geometric fireball. Fireball rendered as collection of red and orange triangular shapes forming sphere. Body leaning forward with weight on front foot. Wearing simple black clothing with red accents. Background divided into radiating triangular sections getting progressively darker from center outward. Strong diagonal composition from bottom left to top right. Face with determined, focused expression. Three stylized heat meter bars visible beside figure in increasing sizes. Bold propaganda-style exclamation marks flanking fireball."
+    },
+    {
+      "cardID": "FM-05",
+      "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman in touching attack pose. Right arm extended forward with hand touching simplified opponent shape (rendered in black silhouette). Geometric red flame shapes spreading from touch point onto opponent. Small angular flame shapes hovering above left hand. Wearing simple black clothing with red accents. Background split diagonally with top section yellow and bottom section red. Plus-one symbol visible near touching hand. Additional geometric flame shapes floating above opponent silhouette (showing future damage). Face with intense, focused expression. Clock or time symbol rendered in constructivist style at top of composition."
+    },
+    {
+      "cardID": "FM-06",
+      "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman releasing stored heat. Arms thrust outward with geometric flames exploding from body in all directions. Multiple triangular and rectangular flame shapes radiating outward from center. Heat visibly leaving body, shown as red geometric shapes flowing outward. Wearing simple black clothing with red accents. Background with concentric circular shapes in yellow-to-red gradient. Card symbol visible in one hand, drawn in geometric constructivist style. Face with expression of release and relief. Empty heat meter bar visible beside figure. Mathematical division symbols incorporated into design, showing conversion of heat to damage."
+    },
+    {
+      "cardID": "FM-07",
+      "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman in defensive barrier pose. Wall of stylized geometric flames materializing in front of her. Flame barrier composed of interlocking red and orange triangular shapes. Arms raised with hands directly manipulating flame wall. Incoming attack shown as black angular shape being absorbed by flame barrier. Wearing simple black clothing with red accents. Background with vertical striped pattern in alternating yellow and black. Face showing concentration and defensive focus. Heat meter filling up beside figure, rendered in constructivist style. Minus-two damage symbol visible where attack meets barrier."
+    },
+    {
+      "cardID": "FM-08",
+      "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman in inward-focused pose. Eyes closed with hands pressed to chest. Intense internal flames visible inside body, rendered as geometric red and orange shapes within black silhouette. Small stylized flame shapes escaping from top of head. Wearing simple black clothing with red accents. Background with radiating lines in yellow getting progressively more red toward edges. Face with expression of intense concentration. Heat meter beside figure showing "+3" in bold constructivist typography. Energy cost reduction symbol (-1) visible beside figure in geometric style. Strong vertical composition emphasizing internal power building."
+    },
+    {
+      "cardID": "FM-L1",
+      "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman, now elderly with white hair and lined face, casting ultimate fire attack. Arms thrust forward directing massive geometric inferno. Extraordinarily powerful fire blast composed of complex interlocking red, orange and yellow shapes erupting from hands. Body showing perfect form despite age, rendered with more angular joints showing age. Background entirely consumed by triangular flame patterns radiating outward. Heat meter completely emptied beside figure. Small flame shapes consuming elder's body, showing physical toll. Face showing determination through pain. Large constructivist-style ancestral symbols incorporated into fire patterns. Mathematical symbols showing heat conversion to damage."
+    },
+    {
+      "cardID": "FM-L2",
+      "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman, now elderly with white hair and lined face, channeling ancestral fire power. Surrounded by five large geometric flame shapes hovering around body. Arms extended with palms up channeling power. Feet firmly planted shoulder-width apart. Simple black clothing now incorporated with red geometric flame patterns. Background with constructivist-style family tree diagram rendered in flame colors. Heat meter beside figure showing "+5" in bold typography. Fire magic cards floating nearby with "-1" energy symbols. Face showing strain but power. Small geometric skull shape at bottom showing health loss next turn. Clock symbol with X through it indicating no reactions."
+    },
+    {
+      "cardID": "FM-L3",
+      "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman, now elderly with white hair and lined face, in ultimate fire stance. Body completely outlined in geometric flame shapes creating perfect silhouette of fire. Prominent +2 heat symbols appearing above head. Stylized damage meters showing heat conversion to damage. Wearing simple black clothing now completely integrated with red geometric patterns. Background divided into mathematical grid showing damage calculations. Face showing mixture of pain and power. Health loss symbols visible at feet. Strong vertical composition with elder at center of flame patterns. Constructivist-style text announcing "NO NON-FIRE CARDS" in bold typography. Perfect geometric balance showing mastery despite age burden."
+    }
+  ]
+}
