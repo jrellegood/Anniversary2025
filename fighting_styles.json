@@ -37,18 +37,6 @@
       "additionalConsiderations": "Struggles when forced into close range. Excellent in open environments with line of sight."
     },
     {
-      "name": "Shortsword & Shield",
-      "playStyle": "Defensive with powerful counters and endurance",
-      "rangePreference": "Close Range",
-      "resourceSystem": "Shield integrity (defensive resource that builds and depletes)",
-      "synergies": [
-        "Earth Magic for enhanced defense",
-        "Water Magic for reactive counters",
-        "Frost Magic for control and defense"
-      ],
-      "additionalConsiderations": "Most resilient style with high survivability. Can struggle to close out games without offensive pairing."
-    },
-    {
       "name": "Rapier & Dagger",
       "playStyle": "Technical, combo-oriented with emphasis on reactions",
       "rangePreference": "Flexible Range",
@@ -83,18 +71,6 @@
         "Arcane Magic for weapon enhancement"
       ],
       "additionalConsiderations": "Requires careful resource management. Strong early game presence with potential mid-game vulnerability."
-    },
-    {
-      "name": "Quarterstaff",
-      "playStyle": "Balanced offense/defense with excellent range transitions",
-      "rangePreference": "Flexible Range",
-      "resourceSystem": "Positioning advantage (gains benefits from active range switching)",
-      "synergies": [
-        "Air Magic for mobility",
-        "Water Magic for fluid transitions",
-        "Arcane Magic for tactical adaptability"
-      ],
-      "additionalConsiderations": "Most adaptable martial style. Excels at exploiting environment changes and responding to opponent strategies."
     }
   ],
   "magicalStyles": [
@@ -181,18 +157,6 @@
         "Bow for applying chill from distance"
       ],
       "additionalConsiderations": "Strong against combo-oriented styles. Can struggle against styles with burst damage."
-    },
-    {
-      "name": "Arcane Magic",
-      "playStyle": "Adaptive, resource conversion, technical play",
-      "rangePreference": "Flexible Range",
-      "resourceSystem": "Mana (versatile resource that can convert between different effects)",
-      "synergies": [
-        "Longsword for tactical versatility",
-        "Quarterstaff for adaptability",
-        "Any style that benefits from tactical resource management"
-      ],
-      "additionalConsiderations": "Most versatile magical style. High skill ceiling but rewards mastery with unparalleled adaptability."
     }
   ]
 }
