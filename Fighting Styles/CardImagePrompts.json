@@ -1,0 +1,488 @@
+{
+    "imagePrompts": [
+        {
+            "cardID": "BA-01",
+            "prompt": "Single person, fully in frame. Nordic woodcut style with bold black lines and high contrast. Viking warrior with muscular build, raising battle axe high above head with both hands. Feet braced wide apart in strong stance. Arms fully extended upward, muscles visibly tensed like a coiled spring. Determined expression, ready to deliver devastating cleave. Simple Norse knotwork border. Background shows stylized mountain silhouettes. Bold runes in corners. Harsh lighting creates dramatic shadows."
+        },
+        {
+            "cardID": "BA-02",
+            "prompt": "Single person, fully in frame. Nordic woodcut style with angular lines and stark contrast. Shield maiden in defensive position, using axe haft horizontally to deflect incoming strike. Body angled sideways to present smaller target. Right hand gripping upper shaft, left hand at base. Broad axe head positioned to catch and redirect enemy weapons. Shield on back. Braided hair. Simple Norse ship in background. Protective runes carved into border."
+        },
+        {
+            "cardID": "BA-03",
+            "prompt": "Single person, fully in frame. Nordic woodcut style with dramatic shadows and bold strokes. Agile Norse warrior keeping battle axe in constant sweeping motion at waist height. Body in fluid stance, knees bent, ready to move in any direction. Axe creating visible arc of movement (shown through stylized motion lines). Successfully deflecting incoming attack. Background shows battlefield elements with fallen shields. Circular rune border suggesting continuous motion."
+        },
+        {
+            "cardID": "BA-04",
+            "prompt": "Single person, fully in frame. Nordic woodcut style with extreme contrast and heavy lines. Massive Viking berserker mid-strike with huge battle axe. Powerful overhead chop with full body weight behind it. Muscles straining, veins visible, face contorted with battle rage. Axe blade shattering enemy shield (partially visible). Dramatic downward angle. Background shows battle chaos in simplified angular forms. Thunder clouds overhead. Power runes etched in axe blade gleaming with energy."
+        },
+        {
+            "cardID": "BA-05",
+            "prompt": "Single person, fully in frame. Nordic woodcut style with sharp angles and stark black/white contrast. Cunning Viking fighter using axe hook technique. Beard with intricate braids. Battle axe extended forward with hook feature behind shield/limb of opponent. Mid-pull motion yanking opponent off-balance. Left foot braced back for leverage. Right arm fully extended, left arm tensed. Background shows rocky coastal terrain. Border features hook patterns and curved elements."
+        },
+        {
+            "cardID": "BA-06",
+            "prompt": "Single person, fully in frame. Nordic woodcut style with powerful gestural lines and bold shadows. Warrior with long-handled Dane axe gripped with hands wide apart. Mid-swing in devastating arc that cuts through air with unstoppable force. Body twisted for maximum rotational power. Cape or cloak flowing with swing momentum. Hair and beard windswept by force of own movement. Axe blade catching light dramatically. Background shows standing stones. Spiral patterns in border suggesting centrifugal force."
+        },
+        {
+            "cardID": "BA-07",
+            "prompt": "Single person, fully in frame. Nordic woodcut style with kinetic lines and stark highlights. Viking warrior in midst of throwing small axe with perfect form. Right arm extended in follow-through position. Body twisted, weight on back foot. Small throwing axe spinning through air toward unseen target. Main battle axe strapped to back. Background shows simple enemy silhouettes. Dramatic action lines showing axe trajectory. Border with small repeating axe motifs."
+        },
+        {
+            "cardID": "BA-08",
+            "prompt": "Single person, fully in frame. Nordic woodcut style with rhythmic patterns and bold strokes. Focused warrior performing practice swings with battle axe in deliberate pattern. Multiple axes shown in different positions to indicate sequence of movement (ghost images). Building momentum with each swing. Feet in stable stance, body showing controlled power. Eyes focused ahead. Simple training ground background. Wave-like patterns in border echoing the building momentum theme."
+        },
+        {
+            "cardID": "BA-L1",
+            "prompt": "Single person, fully in frame. Nordic woodcut style with dramatic shadows and weathered textures. Elderly Norse chieftain with battle-scarred face and long white beard executing perfect axe cleave. Ancient battle axe with ornate carvings and family symbols. Body showing perfect form despite age. Spectral ancestral figures faintly visible behind him, guiding the strike. Axe glowing with power. Background shows Yggdrasil (world tree) motif. Ancient runes in border glowing with same energy as axe."
+        },
+        {
+            "cardID": "BA-L2",
+            "prompt": "Single person, fully in frame. Nordic woodcut style with layered textures and deep shadows. Aging warrior with gray-streaked beard demonstrating perfect axe technique to younger fighters (shown smaller in background). Axe held at precise angle showing mastery of momentum. Body positioned for maximum efficiency with minimal strain. Younger warriors watching intently. Background shows simple Viking longhouse interior. Border contains ancestral axe designs showing evolution of the weapon through generations."
+        },
+        {
+            "cardID": "BA-L3",
+            "prompt": "Single person, fully in frame. Nordic woodcut style with protective symbols and stark contrast. Elder shield-maiden in defensive stance with battle axe held horizontally as barrier. White braided hair and lined face showing age. Perfect defensive posture intercepting incoming attack. Attack shown as broken/diverted by her technique. Body showing strain of impact. Family shield or crest visible on armor or background. Protective bind-runes in border. Background shows fortress wall, suggesting last line of defense."
+        },
+        {
+            "cardID": "BM-01",
+            "prompt": "Single person, fully in frame. Gothic Horror/Victorian Medical Illustration style with monochromatic palette and strategic red accents. East Asian woman in Victorian-era clothing with high-collared black dress and fitted jacket. Right palm showing precisely illustrated surgical cut with anatomically accurate blood flow. Dark energy visibly pulsing from wound, rendered as detailed vascular system extending from cut. Standing in formal pose with straight posture. Face showing controlled intensity with dramatic shadowing. Background with Victorian medical charts showing circulatory system. Vitality gauge illustrated as antique medical vial gradually filling with red liquid. Anatomical heart diagram with energy pathways highlighted in red. Ornate Gothic frame with medical instruments and blood drop motifs. Cross-hatched shading in traditional medical illustration style with precise penwork. Red ink used only for blood and vitality elements."
+        },
+        {
+            "cardID": "BM-02",
+            "prompt": "Single person, fully in frame. Gothic Horror/Victorian Medical Illustration style with monochromatic palette and strategic red accents. Same East Asian woman in black Victorian dress with lace collar and tight sleeves. Blood drawn from self-inflicted wounds solidifying in mid-air as protective barrier. Blood barrier rendered as anatomically accurate blood cell structure magnified to visible scale. Body in defensive stance with one arm extended toward barrier. Face showing grim determination with Gothic shadowing. Background with Victorian medical diagrams of blood crystallization processes. Vitality expenditure gauge showing conversion of blood to barrier (2-to-3 ratio). Anatomical illustrations of arm showing blood extraction points. Ornate Gothic frame with defensive symbols and medical tools. Fine cross-hatching creating dimensional effect on solidified blood. Red ink used only for blood barrier and vitality measurements."
+        },
+        {
+            "cardID": "BM-03",
+            "prompt": "Single person, fully in frame. Gothic Horror/Victorian Medical Illustration style with monochromatic palette and strategic red accents. Same East Asian woman in Victorian black dress with torn edges. Lower body dissolved into anatomically detailed blood droplet cloud. Upper body still solid but with visible circulatory system rendered in precise medical detail. Face showing focused trance state with eyes slightly clouded with red mist. Background with Victorian scientific diagrams of liquid-to-gas transformation. Range change indicator showing tactical repositioning through mist form. Vitality cost measurement shown on anatomical diagram. Ornate Gothic frame with vapor and blood vessel motifs. Detailed particle effect created through stippling technique showing mist composition. Red ink used exclusively for blood mist and circulatory system details."
+        },
+        {
+            "cardID": "BM-04",
+            "prompt": "Single person, fully in frame. Gothic Horror/Victorian Medical Illustration style with monochromatic palette and strategic red accents. Same East Asian woman in Victorian dress with sleeves rolled up showing surgical incisions on both arms. Expelling own blood which forms rigid geometric weapon shape. Blood lance rendered with anatomically correct cellular structure in rigid formation. Body showing visible strain with detailed anatomical tension in muscles. Face with expression of controlled pain and focus. Background with Victorian medical diagrams showing blood pressure and projectile calculations. Health sacrifice meter with numerical indicators (1-3) showing conversion to damage. Vitality resource measurement rendered as medical vial system. Ornate Gothic frame with weapon and surgical tool motifs. Precise cross-hatching showing three-dimensional blood lance formation. Red ink used solely for blood weapon and surgical incisions."
+        },
+        {
+            "cardID": "BM-05",
+            "prompt": "Single person, fully in frame. Gothic Horror/Victorian Medical Illustration style with monochromatic palette and strategic red accents. Same East Asian woman in Victorian dress with medical apron over it. Opening vein in forearm with surgical precision using Victorian scalpel and collection bowl. Blood flowing from wound into floating sphere of vitality energy. Anatomically precise rendering of blood flow from vein to energy sphere. Face showing scientific concentration with Gothic dramatic lighting. Background with Victorian era medical journal pages showing blood tithe procedures. Health loss indicator (-2) with corresponding vitality gain (+3). Knowledge acquisition symbolized by anatomical textbook illustration. Ornate Gothic frame with surgical instruments and blood collection devices. Meticulous cross-hatching creating medical precision effect. Red ink highlighting blood flow pathways and vitality sphere."
+        },
+        {
+            "cardID": "BM-06",
+            "prompt": "Single person, fully in frame. Gothic Horror/Victorian Medical Illustration style with monochromatic palette and strategic red accents. Same East Asian woman in Victorian dress with ceremonial sash covered in occult symbols. Blood splashed on floor forming intricate divination pattern. Pattern showing anatomically correct blood splatter analysis with predictive elements. Body in divination pose with hands interpreting blood patterns. Face intensely studying patterns with knowledge-seeking expression. Background with Victorian medical diagrams of blood-based divination techniques. Vitality expenditure meter showing variable costs and outcomes. Future knowledge symbolized as partially visible anatomical discoveries in blood pattern. Ornate Gothic frame with divination tools and medical instruments. Detailed stippling effect creating texture in blood splatter pattern. Red ink exclusively used for blood pattern and divination elements."
+        },
+        {
+            "cardID": "BM-07",
+            "prompt": "Single person, fully in frame. Gothic Horror/Victorian Medical Illustration style with monochromatic palette and strategic red accents. Same East Asian woman in Victorian combat dress with leather straps and reinforced bodice. Attacking with siphoning device that creates blood transfer effect. Anatomically correct blood transfer system connecting opponent's wound to practitioner's body. Detailed medical illustration of transfusion process with cellular accuracy. Face showing reinvigoration as vitality transfers. Background with Victorian medical diagrams of circulation and transfusion. Healing indicator showing exact replacement of expended health. Vitality gain measurement (+2) shown in medical notation. Ornate Gothic frame with vampiric and medical motifs combined. Precise directional hatching showing blood flow direction. Red ink used only for transferred blood and vitality measurements."
+        },
+        {
+            "cardID": "BM-08",
+            "prompt": "Single person, fully in frame. Gothic Horror/Victorian Medical Illustration style with monochromatic palette and strategic red accents. Same East Asian woman in black Victorian military-style jacket with silver buttons and combat skirt. Fresh wound on palm becoming conduit for counter-magic. Blood from wound forming anatomically accurate vascular system that redirects incoming attack. Body arched backward with left hand clutching wounded right palm, right arm extended forward directing blood stream. Face showing transformation of agony to power with Gothic intensity. Background with Victorian medical diagrams of pain response and blood magic theory. Health sacrifice indicator (-2) with corresponding counter values. Vitality gain measurement (+3) in medical notation. Ornate Gothic frame with defensive magical symbols and anatomical elements. Fine cross-hatching creating dimensional counter-magic effect. Red ink highlighting blood pathways and counter-magic focal points."
+        },
+        {
+            "cardID": "BM-L1",
+            "prompt": "Single person, fully in frame. Gothic Horror/Victorian Medical Illustration style with monochromatic palette and strategic red accents. Same East Asian woman, now elderly with lined face and white hair tied in severe bun, wearing elaborate Victorian dress with ritualistic symbols embroidered on bodice and ritual scars on visible forearms. Performing blood sacrifice with surgical precision. Three precisely placed ritualistic cuts creating anatomically perfect blood extraction. Blood forming unstoppable attack pattern with cellular-level detail showing ancient knowledge. Face showing mastery transcending physical pain. Background with combined Victorian and ancient blood magic diagrams showing evolutionary development. Health sacrifice indicator (-3) with massive damage output calculation. No-healing warning symbol illustrated as sealed medical supplies. Ornate Gothic frame with blood magic symbolism showing historical progression. Extraordinarily detailed cross-hatching showing refinement of technique. Red ink creating dramatic focus on blood rite elements."
+        },
+        {
+            "cardID": "BM-L2",
+            "prompt": "Single person, fully in frame. Gothic Horror/Victorian Medical Illustration style with monochromatic palette and strategic red accents. Same East Asian woman, now elderly with lined face and white hair in elaborate Victorian updo, wearing dark high-collared Victorian dress with red velvet trim and family crest brooch. Surrounded by floating vitality essence rendered as anatomically perfect blood cellular structure. Five vitality points visible as concentrated blood essence spheres. Body showing connection to blood power through visible vascular system drawn in precise medical detail. Face showing power and burden of blood knowledge. Background with Victorian family medical history charts showing blood traits through generations. Vitality gain indicator (+5) with precise medical measurement. Cost reduction effect for blood magic shown through medical notation. Health loss warning illustrated through anatomical diagram showing vitality conversion to damage. Ornate Gothic frame with blood trait illustrations in medical style. Detailed stippling creating dimensional blood essence effect. Red ink highlighting vitality points and connection pathways."
+        },
+        {
+            "cardID": "BM-L3",
+            "prompt": "Single person, fully in frame. Gothic Horror/Victorian Medical Illustration style with monochromatic palette and strategic red accents. Same East Asian woman, now elderly with lined face and white hair in tight bun with blood-red hairpins, wearing elaborate black Victorian dress with medical corset visible and surgical pockets containing blood vials. Body's entire circulatory system visible and enhanced, rendered with perfect anatomical precision. Blood magic flowing through enhanced vascular pathways at impossible pressure. Face showing transcendent mastery with cost of constant pain. Background with ultimate blood magic medical diagrams showing complete system optimization. Energy cost reduction effect illustrated through medical efficiency notation. Vitality doubling effect shown through cellular multiplication diagrams. Health loss indicator showing ongoing physical toll. Warning symbol showing exclusive blood magic channeling requirement. Ornate Gothic frame with hemomancy symbols from ancient to Victorian periods. Extraordinarily detailed vascular rendering showing both power and physical cost. Red ink creating dramatic circulatory system emphasis throughout image."
+        },
+        {
+            "cardID": "BW-01",
+            "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. English longbowman at full draw, muscles locked in perfect tension. Bow fully drawn, string touching archer's cheek. Right arm pulled back with three fingers on string, left arm extended holding bow. Stance side-on to target, feet shoulder-width apart. Face showing intense concentration. Gold leaf highlights bow limbs and arrow. Background shows atmospheric misty mountains in brush painting style. Decorative border with English and Japanese archery motifs. Subtle gold accents illuminating the trajectory line of the aimed arrow."
+        },
+        {
+            "cardID": "BW-02",
+            "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. Mongolian horse archer in light-footed stance, constantly shifting position. Body turned sideways, knees bent, ready to move in any direction. Bow held at ready position but not drawn. Arrow nocked loosely. Feet positioned for quick directional change. Background shows open steppes with flowing brush strokes suggesting wind and space. Gold leaf accents on archer's movement path. Decorative border with horse motifs and flowing patterns. Atmospheric clouds suggesting mobility and changing positions."
+        },
+        {
+            "cardID": "BW-03",
+            "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. Middle Eastern archer in defensive position, partially concealed behind stylized terrain. Bow held horizontally, half-drawn. Body crouched low, minimizing target profile. Only eyes and bow visible from protected position. Background shows mountainous terrain with brush stroke technique. Gold leaf highlights the safe zone around archer. Decorative border featuring interlaced geometric patterns from Islamic art and protective symbols. Atmospheric rendering of distance between archer and unseen opponent."
+        },
+        {
+            "cardID": "BW-04",
+            "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. Japanese Kyudo archer at the moment of perfect release (hanare). Bow vertical and tall, right arm fully extended backward, left arm stretched forward. Body perfectly still in formal standing position. Arrow just leaving bow in perfect trajectory. Face showing complete focus and mushin (no-mind). Background shows distant target with minimalist brush painting aesthetic. Gold leaf tracing arrow's perfect path to target. Decorative border with Zen circles and Japanese archery equipment. Dramatic empty space conveying distance and precision."
+        },
+        {
+            "cardID": "BW-05",
+            "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. English war archer releasing multiple arrows in rapid succession. Hands in blur of motion (shown with multiple transparency overlays). Quiver open with arrows ready for quick access. Body in wide stance for stability. Face showing concentration amid rapid movement. Background shows battlefield with minimalist brush strokes suggesting chaos. Gold leaf accents highlighting the multiple arrows in flight. Decorative border with notched time-marking patterns suggesting rapid rhythm. Dynamic brush strokes contrasting with precise illuminated details."
+        },
+        {
+            "cardID": "BW-06",
+            "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. Archer at point-blank range just releasing powerful shot. Standing extremely close to partially-visible opponent. Body already beginning backward leap away from target. Bow almost touching opponent. Face showing decisive intensity. Arrow just leaving bow with maximum power. Background shows close quarters with atmospheric brush strokes suggesting confined space. Gold leaf highlighting impact point and escape path. Decorative border with interlaced close and far range symbols. Dynamic movement lines in brushwork style showing backward leap."
+        },
+        {
+            "cardID": "BW-07",
+            "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. Parthian shot technique - archer in mid-backward roll while simultaneously drawing bow. Body in fluid defensive motion, halfway through backward evasion. Arrow nocked and partially drawn despite retreat. Feet leaving ground in athletic backward motion. Face looking over shoulder at pursuer. Background shows brush-painted terrain with flowing lines suggesting retreat path. Gold leaf accents highlighting defensive zone created by movement. Decorative border with spiral patterns suggesting tactical withdrawal. Atmospheric rendering suggesting the transition from close to far range."
+        },
+        {
+            "cardID": "BW-08",
+            "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. Archer in methodical preparation stance. Carefully selecting and examining perfect arrow from quiver. Bow held in left hand at ready. Right hand bringing chosen arrow to nocking point with precision. Eyes focused on arrow quality and straightness. Face showing calm assessment. Background shows practice range with brush painting aesthetic. Gold leaf highlighting the perfect arrow being chosen. Decorative border with measurement and precision tools from different archery traditions. Atmospheric calm created with minimal brush strokes."
+        },
+        {
+            "cardID": "BW-L1",
+            "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. Elderly master archer with white beard in perfect shooting form despite age. Bow fully drawn with textbook precision. Arrow aligned perfectly with eye line. Ancient ornate bow with family symbols. Hands showing aged knuckles but perfect position. Face serene with lifetime of mastery. Background shows impossibly distant target with brush-style atmospheric perspective. Gold leaf creating luminous glow around arrow and bowstring. Decorative border with generational archery symbols showing evolution of technique. Subtle ancestral figures in misty brush strokes watching from background."
+        },
+        {
+            "cardID": "BW-L2",
+            "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. Aging archery teacher demonstrating perfect positioning to unseen students. Standing at optimal range from targets. White-haired archer in formal teaching stance, one hand indicating proper distance with measuring gesture. Bow in other hand held at perfect angle. Body positioned for maximum range advantage. Face showing wisdom of experience. Background shows multiple targets at various distances in brush painting style. Gold leaf illuminating the optimal position and range lines. Decorative border with scroll-like instructional diagrams. Atmospheric mist suggesting the passing of knowledge through generations."
+        },
+        {
+            "cardID": "BW-L3",
+            "prompt": "Single person, fully in frame. Illuminated manuscript style with East Asian brush painting influences. Elderly archer in perfect defensive stance. Gray-haired fighter instantly repositioning to far range. Body showing controlled evasion despite age. Bow raised as shield while moving. Arrow nocked and ready despite defensive posture. Face showing strategic calculation. Background shows brush-painted terrain with clear path of tactical retreat. Gold leaf highlighting protective bubble around archer and optimal distance. Decorative border with shield-like motifs from various archery cultures. Atmospheric brush work showing the transition between ranges and the aging archer's mastery of defensive space."
+        },
+        {
+            "cardID": "EM-01",
+            "prompt": "Single person, fully in frame. Mesoamerican/Aztec stone relief carving style with terraced layers and earth tones (brown, amber, terracotta). Indigenous woman with strong features wearing simple ceremonial clothing and earth element headdress. Skin texture appearing to transform into stone, rendered with fine carved line work. Arms held in front of body in protective stance. Stone armor plates materializing around torso and limbs. Feet planted firmly on stepped pyramid platform. Face stoic and immovable. Background with Aztec calendar and earth symbolism carved in shallow relief. Stability meter shown as stacked stone blocks in ascending order. Enemy weapons shown breaking against stone skin. Border with interlocking stone block patterns and earth glyphs. Lighting suggesting stone surface with subtle amber highlighting."
+        },
+        {
+            "cardID": "EM-02",
+            "prompt": "Single person, fully in frame. Mesoamerican/Aztec stone relief carving style with terraced layers and earth tones (brown, amber, terracotta). Same Indigenous woman in active offensive stance. Body emanating seismic waves, shown as concentric carved circles extending outward from feet. Arms thrust toward ground with hands touching earth. Ground cracking beneath feet with angular carved patterns. Feet positioned in wide power stance. Face showing controlled power. Background with Aztec earthquake symbolism in deep relief. Stability meter with conversion indicator showing offensive conversion. Ground shaking effect shown through offset carved line patterns. Border with zigzag patterns representing earth tremors. Lighting emphasizing depth of carved relief with amber highlighting cracks in ground."
+        },
+        {
+            "cardID": "EM-03",
+            "prompt": "Single person, fully in frame. Mesoamerican/Aztec stone relief carving style with terraced layers and earth tones (brown, amber, terracotta). Same Indigenous woman controlling earth beneath feet. Ground transformed into flowing sand patterns, carved with wavelike textures. Arms in fluid position directing sand movement. Body slightly raised above ground on small sand platform. Feet appearing to float on sand surface. Face alert but calm. Background with dunes and sand pattern symbolism in carved relief. Enemy footprints visible then disappearing in sand. Stability meter gaining icons when opponent moves. Border with flowing sand patterns carved in shallow relief. Lighting creating subtle shadows in sand textures with warm amber highlights."
+        },
+        {
+            "cardID": "EM-04",
+            "prompt": "Single person, fully in frame. Mesoamerican/Aztec stone relief carving style with terraced layers and earth tones (brown, amber, terracotta). Same Indigenous woman directing stone spike attack. Arms extended forward commanding large stone spike emerging from ground. Spike rendered as terraced geometric form with sharp top point. Body in strong forward stance with knees bent. Feet firmly planted with visible connection to ground. Face focused on target with determined expression. Background with Aztec weapon and earth magic symbolism. Stability meter with variable values and addition symbols. Mathematical damage conversion glyphs in Aztec style. Border with upward-pointing triangular stone patterns. Lighting creating strong shadows from spike with amber highlighting on edges."
+        },
+        {
+            "cardID": "EM-05",
+            "prompt": "Single person, fully in frame. Mesoamerican/Aztec stone relief carving style with terraced layers and earth tones (brown, amber, terracotta). Same Indigenous woman summoning massive boulder. Arms raised overhead directing huge geometric stone boulder. Boulder rendered as perfect terraced sphere with Aztec patterns carved into surface. Body showing strain of summoning heavy element. Feet set wide apart for stability. Face with expression of concentrated power. Background with Aztec crushing and destruction symbolism. Stability meter showing threshold value of 4 with special effect indicator. Defense negation symbols in Aztec style. Enemy stance symbols breaking under boulder. Border with circular crushing patterns. Lighting emphasizing weight of boulder with deep shadows and amber edge highlighting."
+        },
+        {
+            "cardID": "EM-06",
+            "prompt": "Single person, fully in frame. Mesoamerican/Aztec stone relief carving style with terraced layers and earth tones (brown, amber, terracotta). Same Indigenous woman creating defensive wall. Arms extended to sides commanding stone wall to rise from ground. Wall rendered as interlocking stone blocks forming protective barrier. Body positioned behind center of wall with partial visibility. Feet firmly connected to ground with root-like textures. Face showing protective concentration. Background with Aztec defensive symbolism and glyphs. Stability meter showing +1 value indicator. Enemy attack shown as weapon breaking against wall. Damage reduction value (-2) in Aztec numerical style. Border with horizontal stacked stone patterns. Lighting emphasizing solid protection with deep shadows behind wall."
+        },
+        {
+            "cardID": "EM-07",
+            "prompt": "Single person, fully in frame. Mesoamerican/Aztec stone relief carving style with terraced layers and earth tones (brown, amber, terracotta). Same Indigenous woman creating quicksand trap. Arms directed downward transforming ground into unstable surface. Quicksand rendered as spiraling carved pattern with enemy figure (simplified human form) sinking into center. Body in commanding stance with one foot raised above unstable ground. Face showing tactical control. Background with Aztec entrapment and confinement symbolism. Stability meter showing +2 value indicator. Movement restriction symbols in Aztec style surrounding quicksand area. Border with downward-pulling spiral patterns. Lighting creating illusion of depth in quicksand with darker shadows in center."
+        },
+        {
+            "cardID": "EM-08",
+            "prompt": "Single person, fully in frame. Mesoamerican/Aztec stone relief carving style with terraced layers and earth tones (brown, amber, terracotta). Same Indigenous woman connecting with earth energy. Arms extended downward with palms touching ground. Visible energy flowing from earth into body, shown as terraced line patterns moving upward. Body surrounded by geometric earth aura. Feet partially merged with ground through root-like connections. Face with expression of receiving power. Background with Aztec earth energy and connection symbolism. Stability meter showing +3 value indicator. Energy cost reduction symbol (-1) in Aztec style. Next card indicator with earth magic symbol. Border with ascending earth energy patterns. Lighting emphasizing connection points with warm amber glow where hands touch ground."
+        },
+        {
+            "cardID": "EM-L1",
+            "prompt": "Single person, fully in frame. Mesoamerican/Aztec stone relief carving style with terraced layers and earth tones (brown, amber, terracotta). Same Indigenous woman, now elderly with lined face and gray hair in traditional elder style, in perfect mountain stance. Body partially transformed into living mountain with lower half becoming terraced stone formation. Arms extended forming perfect triangular mountain shape. Face showing ancient wisdom and immovable strength. Background with ancestral mountain spirits carved in shallow relief. Stability meter showing defensive bonus values. Attack negation symbols with Aztec styling. Energy cost increase warning (+1) for attacks. Movement restriction symbol showing inability to change range. Border with mountain peak patterns showing generational heritage. Lighting emphasizing monumentality with amber highlighting on highest points."
+        },
+        {
+            "cardID": "EM-L2",
+            "prompt": "Single person, fully in frame. Mesoamerican/Aztec stone relief carving style with terraced layers and earth tones (brown, amber, terracotta). Same Indigenous woman, now elderly with lined face and gray hair in traditional elder style, summoning earthquake. Arms thrust into ground with entire earth fracturing in geometric patterns. Massive seismic event rendered as concentric carved circles with angular cracks extending outward. Body showing perfect form despite age. Face showing strain of channeling immense power. Background with ancient earth deity symbols in deep relief. Stability meter with spending mechanic and damage conversion symbols. Defense negation glyphs in Aztec style. Health damage warning symbol showing toll of earthquake. Border with shattered earth patterns showing destructive potential. Lighting dramatic with deep shadows in earth cracks and amber highlighting on raised surfaces."
+        },
+        {
+            "cardID": "EM-L3",
+            "prompt": "Single person, fully in frame. Mesoamerican/Aztec stone relief carving style with terraced layers and earth tones (brown, amber, terracotta). Same Indigenous woman, now elderly with lined face and gray hair in traditional elder style, channeling ancestral earth power. Surrounded by floating terraced stone blocks arranged in perfect geometric pattern. Six stable earth connections visible as carved lines from hands to ground. Body showing strain beneath perfect technical form. Face showing both power and sacrifice. Background with ancestral earth mages carved in progressive relief showing generational lineage. Stability meter showing +6 value indicator. Energy cost reduction symbols for all earth magic. Health sacrifice symbol showing half-value effect. Border with ancient earth magic symbols showing techniques passed through generations. Lighting emphasizing ancestral connections with subtle glowing effect around elder."
+        },
+        {
+            "cardID": "FM-01",
+            "prompt": "Single person, fully in frame. Nordic/Scandinavian ice crystal art style with layered transparency and cool tones (pale blue, frost white, silver, deep blue). Northern European woman with strong features wearing fur-trimmed ceremonial robes with ice crystal embellishments. Hands raised creating defensive ice palace structure around her body. Intricate geometric crystalline walls rising around her in hexagonal patterns. Feet planted firmly on frozen ground with frost patterns spreading outward. Face serene and focused. Background with ancient Norse winter runes and symbols carved in ice. Opponent's movement showing increased effort through visible strain against ice surface. Border with interlocking snowflake patterns and frost runes. Lighting suggesting ice transparency with subtle blue highlighting and light refraction through crystal structures."
+        },
+        {
+            "cardID": "FM-02",
+            "prompt": "Single person, fully in frame. Nordic/Scandinavian ice crystal art style with layered transparency and cool tones (pale blue, frost white, silver, deep blue). Same Northern European woman in flowing, dance-like stance. Body partially dissolving into swirling snow particles at edges. Arms extended outward in release gesture with trails of snowflakes following movement. Hair and clothing appearing to blow in magical wind. Feet barely touching ground, appearing to float on thin ice platform. Face expressing freedom and release. Background with mountain vista and swirling snow patterns. Movement lines showing effortless range change. Frost trail indicating path of evasion. Border with free-flowing snowflake patterns suggesting unrestricted movement. Lighting creating ethereal glow around figure with ice particles catching light."
+        },
+        {
+            "cardID": "FM-03",
+            "prompt": "Single person, fully in frame. Nordic/Scandinavian ice crystal art style with layered transparency and cool tones (pale blue, frost white, silver, deep blue). Same Northern European woman in aggressive winter storm stance. Arms directing visible howling blizzard toward viewer. Sharp ice shards suspended in air around her, pointing outward like weapons. Body surrounded by swirling snow vortex. Feet firmly planted on ice platform with cracks spreading outward. Face showing controlled intensity. Background with storm clouds and lightning made of ice crystals. Opponent figure partially obscured by driving snow. Energy cost indicators showing increased requirements for reactions. Border with sharp, jagged ice spike patterns suggesting aggressive potential. Lighting creating dramatic shadows through snowstorm with blue-white highlights on ice shards."
+        },
+        {
+            "cardID": "FM-04",
+            "prompt": "Single person, fully in frame. Nordic/Scandinavian ice crystal art style with layered transparency and cool tones (pale blue, frost white, silver, deep blue). Same Northern European woman throwing perfect ice spear. Arms extended in throwing position with one arm forward. Massive crystalline spear formed from perfect hexagonal ice crystals launching toward target. Trail of frost particles visible behind spear. Body in balanced throwing stance. Feet in stable position with right foot forward. Face showing precise concentration. Background with distant target marked with frost impact point. Range indicator showing Far Range bonus damage. Freeze effect visible on path where spear travels. Border with aerodynamic ice projectile patterns. Lighting emphasizing transparency of ice spear with blue core and white highlights on edges."
+        },
+        {
+            "cardID": "FM-05",
+            "prompt": "Single person, fully in frame. Nordic/Scandinavian ice crystal art style with layered transparency and cool tones (pale blue, frost white, silver, deep blue). Same Northern European woman casting freezing heart spell. Hands directed toward center of opponent's chest where visible ice crystal formation is beginning. Ray of concentrated cold energy connecting from hands to target. Body in balanced casting stance. Feet shoulder-width apart on frost-covered ground. Face showing intense focus. Background with anatomical heart imagery formed in ice crystals. Energy cost indicator showing opponent's increased costs. Movement restriction symbols showing inability to use reactions. Border with heartbeat-line patterns transitioning to frozen crystalline structures. Lighting creating cold beam effect with core of pale blue surrounded by white frost particles."
+        },
+        {
+            "cardID": "FM-06",
+            "prompt": "Single person, fully in frame. Nordic/Scandinavian ice crystal art style with layered transparency and cool tones (pale blue, frost white, silver, deep blue). Same Northern European woman creating defensive ice mirror. Arms crossed in front of body forming X-shape with perfect ice mirror forming at intersection. Attack energy visible reflecting back toward source. Mirror surface showing perfect geometrical fractal patterns. Body in balanced defensive stance. Feet firmly planted with frost spreading in circular pattern. Face showing calm focus amid danger. Background with incoming attack and redirected energy patterns. Damage reduction indicator (-1) made of small ice numerals. Stance restriction symbols showing opponent's limited options. Border with reflective geometric ice patterns. Lighting emphasizing perfect reflection in ice mirror surface with blue highlights on edges."
+        },
+        {
+            "cardID": "FM-07",
+            "prompt": "Single person, fully in frame. Nordic/Scandinavian ice crystal art style with layered transparency and cool tones (pale blue, frost white, silver, deep blue). Same Northern European woman creating expanding frost fractals. Arms extended with intricate frost patterns growing from fingertips and spreading outward. Beautiful mathematical fractals forming in air around her, each with perfect sixfold symmetry. Body centered in mandala-like frost pattern. Feet at center of circular frost formation spreading across ground. Face showing appreciation of mathematical beauty being created. Background with slowed opponent figures visible through translucent ice. Damage reduction indicator (-1) formed in frost patterns. Energy cost increase symbols (+1) for opponent actions. Border with expanding fractal ice patterns of increasing complexity. Lighting creating rainbow prismatic effects through ice crystals with core blue illumination."
+        },
+        {
+            "cardID": "FM-08",
+            "prompt": "Single person, fully in frame. Nordic/Scandinavian ice crystal art style with layered transparency and cool tones (pale blue, frost white, silver, deep blue). Same Northern European woman summoning concealing blizzard. Arms raised overhead creating swirling snow vortex around entire scene. Visibility intentionally obscured with figure seen through curtain of snowfall. Body in commanding weather-control stance. Feet elevated slightly above ground on small ice platform. Face serene amid chaos of storm. Background barely visible through heavy snowfall. Range change indicator showing tactical repositioning. Energy cost reduction indicator (-2) for next spell. Stance change symbols showing fluid transitions. Border with swirling snow patterns of varying density. Lighting creating glowing effect within snowstorm, centered on figure with diffuse white illumination spreading outward."
+        },
+        {
+            "cardID": "FM-L1",
+            "prompt": "Single person, fully in frame. Nordic/Scandinavian ice crystal art style with layered transparency and cool tones (pale blue, frost white, silver, deep blue). Same Northern European woman, now elderly with silver hair and lined face, transformed into mountain-like ice fortress. Lower body merged with massive ice mountain formation. Arms extended creating perfect defensive ice walls of extraordinary thickness. Face showing ancient wisdom and immovable determination. Background with ancestor spirits visible in ice reflections showing generational lineage. Damage reduction indicator (-2) in ice numerals. Attack energy cost increase symbol (+1) for opponents. Movement restriction indicator showing limited mobility. Border with ancient ice fortress patterns showing heritage techniques passed through generations. Lighting emphasizing monumental scale with deep blue interior ice color and bright white highlights on edges."
+        },
+        {
+            "cardID": "FM-L2",
+            "prompt": "Single person, fully in frame. Nordic/Scandinavian ice crystal art style with layered transparency and cool tones (pale blue, frost white, silver, deep blue). Same Northern European woman, now elderly with silver hair and lined face, casting eternal winter spell. Arms fully extended with entire landscape freezing instantly around her. Perfect ice crystals forming in air and spreading outward in wave of absolute cold. Body showing perfect form despite visible age. Face showing strain of channeling immense power. Background with completely frozen opponents unable to move or change position. Damage indicator showing powerful 3-value attack. Movement and stance restriction symbols showing complete lockdown. Energy cost indicator showing next turn penalty. Border with eternal ice patterns suggesting time stopped indefinitely. Lighting creating absolute stillness effect with cold white-blue illumination across entire scene."
+        },
+        {
+            "cardID": "FM-L3",
+            "prompt": "Single person, fully in frame. Nordic/Scandinavian ice crystal art style with layered transparency and cool tones (pale blue, frost white, silver, deep blue). Same Northern European woman, now elderly with silver hair and lined face, summoning ancestral blizzard. Surrounded by perfect storm of unprecedented magnitude with ancient winter spirits visible within snowfall. Arms controlling weather forces of extraordinary power. Body showing strain beneath perfect technical form. Face showing both tremendous power and sacrifice of using hereditary technique. Background with multiple opponents struggling against increased energy requirements. Cost indicator showing significant +2 energy increase for all opponent actions. Card draw symbols showing tactical advantage gained. Hand discard warning showing technique's drawback. Border with ancient winter magic symbols showing techniques passed through generations. Lighting creating supernatural blizzard effect with spirit lights visible within storm."
+        },
+        {
+            "cardID": "LS-01",
+            "prompt": "Single person, fully in frame. Medieval tapestry style. North African woman in simple medieval tunic. Standing with right foot forward 12 inches, left foot back, feet at 45-degree angle. Both arms raised with elbows slightly bent. Both hands gripping longsword handle, right hand near guard, left hand at pommel. Blade held vertically above head, slightly angled back. Looking forward directly at opponent, chin slightly tucked. Torso straight, slightly rotated to right side. Simple castle battlements in background."
+        },
+        {
+            "cardID": "LS-02",
+            "prompt": "Single person, fully in frame. Medieval tapestry style. East Asian man in period clothing. Longsword pointing downward with tip nearly touching ground. Arms extended downward. Hands gripping sword at waist level, right hand at cross-guard, left hand at pommel. Standing with feet shoulder-width apart. Knees slightly bent in stable position. Upper body leaning slightly forward. Expression calm but watchful. Stylized trees in background."
+        },
+        {
+            "cardID": "LS-03",
+            "prompt": "Single person, fully in frame. Medieval tapestry style. Middle Eastern woman in medieval garments. Longsword held at right temple height. Right arm bent with elbow pointing down, left arm partially extended. Hands gripping sword with point aimed directly forward at eye level. Blade angled slightly downward. Left foot forward, right foot at 45-degree angle. Face in profile, eyes focused ahead. Training yard with wooden posts in background."
+        },
+        {
+            "cardID": "LS-04",
+            "prompt": "Single person, fully in frame. Medieval tapestry style. South Asian man in simple medieval clothing. Delivering horizontal sword cut from right to left. Arms extended with sword held horizontally at shoulder height. Right arm fully extended, left arm supporting with tension. Upper body twisted with right shoulder forward. Hips rotated with power. Front knee bent deeply. Sword making contact with opponent's neck area. Simple spectator figures in background."
+        },
+        {
+            "cardID": "LS-05",
+            "prompt": "Single person, fully in frame. Medieval tapestry style. Indigenous woman in period-appropriate attire. Executing diagonal downward strike from left to right. Arms extended with right arm higher than left. Sword angled to strike opponent's forearms or hands. Body rotated sideways. Left foot forward, right foot planted firmly back. Simultaneously deflecting opponent's upraised weapon. Medieval town buildings in background."
+        },
+        {
+            "cardID": "LS-06",
+            "prompt": "Single person, fully in frame. Medieval tapestry style. Black man in medieval tunic and leggings. Delivering downward diagonal cut from right to left. Using false edge (back edge) of longsword. Arms extended with hands crossed slightly. Eyes narrowed, looking along blade. Left shoulder forward, torso twisted for power. Right leg lunging forward, left leg extended back. Breaking through opponent's raised guard. Tournament grounds with colorful banners in background."
+        },
+        {
+            "cardID": "LS-07",
+            "prompt": "Single person, fully in frame. Medieval tapestry style. Woman with fair skin and red hair in medieval dress. Thrusting sword forward with precision. Arms extended with sword point directed at opponent's chest. Back straight, right foot lunging forward. Left leg extended behind. Catching opponent mid-movement as they change position. Body positioned to exploit opening in opponent's defense. Castle walls in background."
+        },
+        {
+            "cardID": "LS-08",
+            "prompt": "Single person, fully in frame. Medieval tapestry style. Latino man in period clothing. Swords crossed with opponent at mid-point. Right arm bent upward, left arm pulling down. Wrists twisted to rotate blade around opponent's weapon. Body pivoting from one stance to another. Weight shifting between feet. Left foot forward, right foot at 90 degrees. Spiral pattern around swords showing twisting motion. Medieval hall with arched windows in background."
+        },
+        {
+            "cardID": "LS-L1",
+            "prompt": "Single person, fully in frame. Medieval tapestry style. Elderly Arab man with white beard in ornate but battle-worn clothing. Executing powerful diagonal cut from right shoulder to left hip. Arms fully extended in follow-through position. Sword held with both hands. Knees bent for stability despite age. Back slightly hunched. Body twisting for maximum power. Perfect form showing mastery through years of practice. Simple family crest or coat of arms in background."
+        },
+        {
+            "cardID": "LS-L2",
+            "prompt": "Single person, fully in frame. Medieval tapestry style. Older East Asian woman with gray hair tied back. Wearing instructor's robes. Right hand drawing sword from waist, left hand extended forward in teaching gesture. Body half-turned to show proper angle. Two younger students visible behind her in simpler versions of the same stance. Left hand holding scrolls or manuscripts. Additional open books and scrolls visible on floor or table nearby."
+        },
+        {
+            "cardID": "LS-L3",
+            "prompt": "Single person, fully in frame. Medieval tapestry style. Elderly Indigenous man with long white hair and weathered face. In perfect defensive stance combining elements of Iron Gate and Crown positions. Sword held horizontally at chest height. Left arm supporting blade near point, right arm gripping handle firmly. Left foot forward, right foot back at 90-degree angle. Knees deeply bent. Upper body leaning slightly forward. Shield motifs in border. Opponent's attack being completely blocked by the sword's forte (strong part of blade)."
+        },
+        {
+            "cardID": "QS-01",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Black woman in flowing robes holding quarterstaff high in overhead guard position. Staff held horizontally above head with both hands. Powerful stance with front foot firmly planted. Dynamic brushstrokes suggesting readiness to strike downward. Face showing focused concentration. Minimal background with suggestion of mountain forms in light wash. Negative space used to emphasize height advantage. Red seal mark in corner. Bamboo-inspired border elements with flowing brush patterns."
+        },
+        {
+            "cardID": "QS-02",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Latino man in simple garments in low defensive stance. Quarterstaff held horizontally near ground with one end almost touching earth. Body crouched with center of gravity low. Feet positioned wide for stability. Expression calm but alert. Brushstrokes heavier at bottom suggesting grounded energy. Subtle landscape elements suggesting rocky terrain. Generous negative space above figure emphasizing lowered position. Bamboo-motif border with protective symbols. Red seal mark in lower corner."
+        },
+        {
+            "cardID": "QS-03",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Middle Eastern woman in centered stance with quarterstaff held horizontally at waist height. Body perfectly balanced between advance and retreat. Feet positioned for immediate movement in any direction. Staff creating central line across composition. Face showing mindful awareness. Brushstrokes suggesting circular movement possibilities. Minimal background with suggestion of path through misty space. Negative space used to show potential movement directions. Red seal mark in corner. Circular patterns in border suggesting flexibility."
+        },
+        {
+            "cardID": "QS-04",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. East Asian man executing powerful forward thrust with quarterstaff. Body extending with perfect alignment. Staff held with hands separated for optimal leverage. Forward foot stepping into thrust. Rear foot providing stability. Face showing focused power. Dynamic brushstrokes suggesting forward momentum. Subtle wash suggesting changing environmental position. Negative space ahead of thrust implying range control. Energetic linear border elements. Red seal mark in corner balance with forward motion."
+        },
+        {
+            "cardID": "QS-05",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Indigenous woman performing sweeping circular strike with quarterstaff. Body pivoting with staff extended in wide arc. Feet rooted but body in rotation. Staff creating circular pattern with blurred brush techniques. Face centered and controlled amid movement. Brushstrokes showing centrifugal force of sweeping motion. Minimal environmental elements being affected by staff sweep. Negative space emphasizing the circular clearing created by technique. Spiral patterns in border. Red seal mark integrated into circular composition."
+        },
+        {
+            "cardID": "QS-06",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. South Asian man in mid-transition strike. Body showing two overlapping positions in one fluid movement. Quarterstaff striking at close range then transitioning to far position. Feet showing movement between stances. Multiple semi-transparent brush outlines showing transition. Face focused through position change. Dynamic brushwork suggesting movement through space. Background with subtle depth indicators. Negative space between positions emphasizing range control. Flowing border patterns suggesting continuous motion. Two red seal marks at different positions."
+        },
+        {
+            "cardID": "QS-07",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Arab man in defensive parry with quarterstaff. Staff positioned horizontally to intercept incoming attack (shown as fading brushstroke). Body already pivoting to change position after block. Feet in transition between stances. Face alert but calm during defense. Fluid brushstrokes showing simultaneous defense and position change. Minimal suggested opponent form in negative space. Environmental elements showing spatial transition. Border with protective symbols and movement patterns. Red seal mark in corner balanced with defensive position."
+        },
+        {
+            "cardID": "QS-08",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Black man demonstrating perfect positional flow with quarterstaff. Body in mid-step between positions. Staff creating diagonal line through composition. Feet showing precise placement for optimal stance. Hands repositioning on staff during movement. Face showing inner focus on positioning. Light, economical brushstrokes suggesting effortless movement. Background showing suggested pathways through space. Negative space used to show potential movement options. Flowing water-inspired border patterns. Red seal mark integrated with movement path."
+        },
+        {
+            "cardID": "QS-L1",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Elderly Latino man executing perfect combination attack. Body shown in multiple overlaid positions capturing sequence of moves. Quarterstaff striking, changing range, and striking again in single flowing movement. White hair and aged face contrasting with perfect technique. Hands showing slight tremor despite perfect staff position. Dynamic brushstrokes with varying ink density showing power of sequence. Multiple faint ancestral figures suggested in background. Negative space creating rhythm between strike positions. Complex border showing movement evolution. Multiple red seal marks tracking the combination sequence."
+        },
+        {
+            "cardID": "QS-L2",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Elderly East Asian woman demonstrating perfect positioning mastery. Body positioned at ideal tactical point in space. Quarterstaff creating perfect angle for both defense and offense. Aged hands positioned with decades of refinement on staff. White hair and lined face showing age contrasting with perfect form. Subtle directional brush lines showing optimal positioning in space. Environmental elements emphasizing perfect tactical position. Negative space creating clear zones of control. Geometric border patterns showing spatial mastery. Red seal mark positioned at key tactical point in composition."
+        },
+        {
+            "cardID": "QS-L3",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Elderly Indigenous man in perfect defensive stance. Body showing subtle strain of maintaining ideal form despite age. Quarterstaff creating protective zone around figure. Changing position while maintaining defense (shown through multiple semi-transparent positions). White hair and weathered face showing years of experience. Brushwork showing both strength and fragility of aging master. Attack brushstrokes being diverted by staff position. Negative space showing safe zones created by defense. Protective circular border patterns. Red seal mark integrated with defensive position."
+        },
+        {
+            "cardID": "SP-01",
+            "prompt": "Single person, fully in frame. Japanese Ukiyo-e woodblock print style with bold black outlines and flat color planes. Japanese male warrior with strong build, angular face and tied-back black hair. Holding yari spear with blade extended forward at chest height. Right arm fully extended forward, left arm gripping shaft 2 feet behind right hand. Standing with right foot 18 inches in front of left foot. Facial expression intense with narrowed eyes. Bold diagonal composition with spear creating 30-degree upward angle. Red and blue traditional Japanese armor with gold circular clan symbol on chest. Mount Fuji visible in distant background. Traditional cloud patterns framing upper corners. Cherry blossoms falling around figure."
+        },
+        {
+            "cardID": "SP-02",
+            "prompt": "Single person, fully in frame. Japanese Ukiyo-e woodblock print style with bold black outlines and flat color planes. Same Japanese male warrior with angular face and tied-back black hair. Holding spear angled downward at 40 degrees with butt end raised 5 feet off ground. Left foot positioned 20 inches forward, right foot back and turned outward. Body crouched with knees bent at 45-degree angles. Face turned upward with jaw tightened. Red and blue traditional Japanese hakama and kimono with protective arm guards. Stone garden elements in background. Wave pattern border element at bottom of image."
+        },
+        {
+            "cardID": "SP-03",
+            "prompt": "Single person, fully in frame. Japanese Ukiyo-e woodblock print style with bold black outlines and flat color planes. Japanese male warrior with angular face and tied-back black hair. Holding spear parallel to ground at waist height (3 feet high). Right hand gripping shaft 2 feet from blade end, left hand gripping 4 feet behind right hand. Standing with feet exactly shoulder-width apart. Side profile showing straight back with 90-degree angle to ground. Red and blue traditional Japanese light armor with gold circular clan symbol on back. Training ground setting with wooden posts. Geometric patterns in border."
+        },
+        {
+            "cardID": "SP-04",
+            "prompt": "Single person, fully in frame. Japanese Ukiyo-e woodblock print style with bold black outlines and flat color planes. Japanese male warrior with angular face and tied-back black hair. Thrusting spear directly forward. Spear shaft extending from lower left to upper right at 15-degree angle. Right arm extended straight ahead, left arm pushing at rear of shaft. Right leg bent at 90-degree angle with foot flat, left leg stretched straight behind. Spine aligned in straight line with spear. Eyes narrowed and focused directly ahead. Red and blue traditional Japanese battle garments with white headband. Distant silhouette figure positioned 8 feet away from spear tip."
+        },
+        {
+            "cardID": "SP-05",
+            "prompt": "Single person, fully in frame. Japanese Ukiyo-e woodblock print style with bold black outlines and flat color planes. Japanese male warrior with angular face and tied-back black hair. Sweeping spear in horizontal arc at waist height. Spear shaft positioned horizontally across body from right side to left. Hands spaced 3 feet apart on shaft. Body twisted with shoulders rotated 45 degrees from hips. Weight visibly shifting from right foot to left foot. Red and blue traditional Japanese light armor with flowing waist sash extending outward with motion. Open field background with circular distance markers visible on ground. Curved lines following spear path."
+        },
+        {
+            "cardID": "SP-06",
+            "prompt": "Single person, fully in frame. Japanese Ukiyo-e woodblock print style with bold black outlines and flat color planes. Japanese male warrior with angular face and tied-back black hair. Holding spear that changes direction mid-shaft, creating curved line. Spear starting at lower right, bending at middle, ending at upper left. Right hand positioned at bend point controlling direction, left hand at rear of shaft. Body weight shifting from back foot to front foot. Head turned to look over left shoulder. Red and blue traditional Japanese combat robes with gold circular clan markings on sleeves. Bamboo grove background. Dotted line showing curved spear trajectory."
+        },
+        {
+            "cardID": "SP-07",
+            "prompt": "Single person, fully in frame. Japanese Ukiyo-e woodblock print style with bold black outlines and flat color planes. Japanese male warrior with angular face and tied-back black hair. Blocking with spear shaft held vertically. Left hand raised above head holding upper shaft, right hand at waist level holding lower shaft. Spear positioned to block horizontal attack shown as thin red line at chest height. Body leaning forward with right foot sliding toward opponent. Eyes focused on point where spear intersects attack line. Red and blue traditional Japanese light armor with protective forearm wraps. Training hall interior with wooden floor. Vertical and horizontal lines intersecting in border design."
+        },
+        {
+            "cardID": "SP-08",
+            "prompt": "Single person, fully in frame. Japanese Ukiyo-e woodblock print style with bold black outlines and flat color planes. Japanese male warrior with angular face and tied-back black hair. Demonstrating precise footwork with right foot crossing over left at 90-degree angle. Spear held diagonally across body at 45-degree angle. Upper body remaining vertical while lower body shows crossing step. Eyes focused straight ahead with slight downward gaze at ground path. Red and blue traditional Japanese divided hakama pants clearly showing leg crossing position. Zen garden background with raked sand patterns. Actual footprints visible on ground showing step sequence."
+        },
+        {
+            "cardID": "SP-L1",
+            "prompt": "Single person, fully in frame. Japanese Ukiyo-e woodblock print style with bold black outlines and flat color planes. Same Japanese warrior now elderly with white hair in topknot and deeply lined face with white eyebrows. Executing thrust with spear held perfectly horizontal at chest height. Spear extending straight forward with blade exactly parallel to ground. Despite aged appearance, stance shows right foot forward at precise 45-degree angle, left foot back providing stability. Hands positioned exactly 2 feet apart on shaft. Red and blue traditional Japanese master's robes with large gold family symbol on back. Mountain dojo setting with small shrine. Faint transparent figures in matching poses visible behind elder."
+        },
+        {
+            "cardID": "SP-L2",
+            "prompt": "Single person, fully in frame. Japanese Ukiyo-e woodblock print style with bold black outlines and flat color planes. Elderly version of same Japanese warrior with white hair in topknot and deeply lined face. Standing at center of concentric circles drawn on floor at 2-foot intervals. Holding spear with blade positioned precisely at outer circle edge (8 feet from body). Arms extended with shaft at 30-degree downward angle from horizontal. Weight distributed evenly with feet positioned at shoulder width. Red and blue traditional Japanese formal teaching robes with master's rank cord. Dojo interior with seated students visible at edges of image. Circular patterns surrounding figure colored in fading blue tones."
+        },
+        {
+            "cardID": "SP-L3",
+            "prompt": "Single person, fully in frame. Japanese Ukiyo-e woodblock print style with bold black outlines and flat color planes. Elderly version of same Japanese warrior with white hair in topknot and deeply lined face with white beard. Holding spear in defensive cross-body position. Shaft angled across torso from lower right to upper left at 40-degree angle. Left hand positioned at shoulder height, right hand at hip level. Standing with left foot forward, right foot back at 45-degree angle. Body slightly hunched with age but stance stable. Red and blue traditional Japanese ceremonial armor with multiple small family crests. Ancient dojo setting with wooden weapon rack displaying ancestral spears. Blue protective aura effect surrounding figure, deflecting incoming arrows illustrated as thin black lines."
+        },
+        {
+            "cardID": "WM-01",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. East Asian woman in flowing robes standing in a calm, relaxed stance. Body appears to ripple like water, with subtle blue-tinted ink washes creating watery effect around her form. Hands positioned in front at waist level, palms slightly cupped as if feeling water. Feet shoulder-width apart, knees slightly bent. Face serene and attentive, eyes focused ahead. Brushstrokes fluid and continuous, creating ripple-like patterns around body. Minimal background with suggestion of pond or lake. Red seal mark in lower corner. Border with flowing wave patterns in light ink wash."
+        },
+        {
+            "cardID": "WM-02",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Same East Asian woman in dynamic forward stance. Arms extended forward with hands creating wave-like pushing motion. Blue-tinted ink creating crashing wave effect emanating from hands. Body leaning forward with weight on front foot. Back foot firmly planted. Hair and clothes appearing to flow backward as if in strong current. Face showing focused determination. Bold, powerful brushstrokes suggesting forward momentum and water pressure. Minimal background with suggestion of splashing water. Red seal mark in corner. Border with dynamic crashing wave patterns."
+        },
+        {
+            "cardID": "WM-03",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Same East Asian woman in defensive stance. Arms crossed in front of body with hands flat as if blocking. Solid ice shield forming in front of her arms, rendered in crisp, angular brushstrokes with light blue tinting. Body straight with feet firmly planted shoulder-width apart. Face calm but alert. Contrasting brushwork between rigid ice shield and flowing water around feet. Minimal background with suggestion of crystalline patterns. Red seal mark in corner. Border with geometric ice crystal patterns transitioning to flowing water."
+        },
+        {
+            "cardID": "WM-04",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Same East Asian woman in powerful offensive stance. Arms thrust forward with hands directing massive wave. Large tidal wave rendered in bold, fluid brushstrokes with blue tinting forming behind her. Body leaning forward with knees bent and feet firmly planted. Hair and clothes flowing in direction of water surge. Face showing controlled power. Dynamic brushstrokes creating sense of enormous water pressure. Minimal background with smaller objects being carried in wave's current. Red seal mark in corner. Border with amplifying wave patterns increasing in size."
+        },
+        {
+            "cardID": "WM-05",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Same East Asian woman creating swirling vortex of water. Arms making circular motion in front of body. Spiral whirlpool effect created with circular brushstrokes and blue tinting between her hands. Body in stable stance with feet positioned wide apart. Opponent's focus card (rendered as scroll or paper) being pulled into the whirlpool. Face focused on the vortex. Swirling, circular brushstrokes creating sense of rotation and pull. Minimal background with suggestion of disrupted elements. Red seal mark in corner. Border with spiral patterns resembling whirlpools."
+        },
+        {
+            "cardID": "WM-06",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Same East Asian woman creating vertical water column. Arms raised upward with column of water erupting from ground beneath her feet. Water column lifting her several feet above ground, rendered in vertical brushstrokes with blue tinting. Body appearing to ride atop water column. Feet positioned as if standing on water surface. Face looking downward at unseen opponent. Upward-flowing brushstrokes creating sense of vertical movement. Two level markers visible showing position change. Red seal mark in corner. Border with vertical flowing patterns suggesting upward water movement."
+        },
+        {
+            "cardID": "WM-07",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Same East Asian woman in defensive redirecting pose. Arms making sweeping, redirecting motion from right to left. Incoming attack shown as dark brushstroke being curved and redirected around her body. Blue-tinted water flowing around arms, following same redirecting path. Body angled slightly to assist redirection. Feet in stable stance. Face calm and focused on redirecting motion. Curved brushstrokes showing flow of redirected energy. Minimal background with suggestion of redirected force. Red seal mark in corner. Border with curved deflecting patterns."
+        },
+        {
+            "cardID": "WM-08",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Same East Asian woman in meditative stance gathering water energy. Arms held out to sides, palms up. Multiple small water currents rendered in light blue-tinted brushstrokes flowing from surroundings toward her hands. Body centered and balanced with back straight. Feet positioned in stable meditation stance. Face peaceful with eyes partially closed. Light, delicate brushstrokes showing gentle water collection. Minimal background with suggestion of multiple water sources. Red seal mark in corner. Border with converging flow patterns moving inward."
+        },
+        {
+            "cardID": "WM-L1",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Same East Asian woman, now elderly with white hair, executing powerful water attack. Arms thrust forward directing massive torrent of water. Extraordinarily powerful water stream rendered in bold blue-tinted brushstrokes emanating from hands. Body showing perfect form despite age. Face showing focused determination with subtle signs of strain. Extremely dynamic brushstrokes showing destructive water force. Water stream breaking through stone obstacle (shown partially). Red seal mark in corner. Border with ancestral wave patterns showing heritage. Small exhausted brushstrokes near woman's feet showing temporary depletion."
+        },
+        {
+            "cardID": "WM-L2",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Same East Asian woman, now elderly with white hair, performing perfect water redirection. Arms creating complete circular motion. Incoming attack (shown as dark brushstroke) completely reversed back toward attacker. Perfect water mirror rendered in blue-tinted circular brushstrokes between her and attack. Body in flawless redirecting stance despite age. Face showing complete concentration. Mirrored brushstrokes showing perfect reflection of incoming force. Three blank scrolls visible beside her feet. Red seal mark in corner. Border with mirror-like reflection patterns."
+        },
+        {
+            "cardID": "WM-L3",
+            "prompt": "Single person, fully in frame. Chinese ink wash painting (sumi-e) style on vertical bamboo scroll format. Same East Asian woman, now elderly with white hair, summoning deep water reserves. Arms raised overhead creating enormous water sphere. Massive water reservoir rendered in concentrated blue-tinted brushstrokes forming above her. Body showing signs of strain with slight hunching. Small trickle of blood from nose or mouth. Face showing intense concentration with signs of pain. Dense, layered brushstrokes showing deep, powerful water energy. Six distinct flow streams connecting to her hands. Red seal mark in corner. Border with ancient water symbols. Small health symbols at her feet showing physical cost."
+        },
+        {
+            "cardID": "FM-01",
+            "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Eastern European woman with strong facial features standing confidently. Body surrounded by angular, geometric flame shapes in bright red and orange. Arms slightly raised at sides with stylized fire spiraling around them. Hands open with small flame geometric shapes hovering above palms. Wearing simple black clothing with red accents. Background divided into geometric shapes with yellow-to-red gradient suggesting heat. Bold diagonal lines creating dynamic composition. Simplified propaganda-style face with determined expression. Large sans-serif Cyrillic-inspired text blocks in corners creating frame."
+        },
+        {
+            "cardID": "FM-02",
+            "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman in defensive position. Simplified geometric ember shapes orbiting around body in perfect circular pattern. Arms positioned in protective X-shape across chest. Standing firmly with feet shoulder-width apart. Wearing simple black clothing with red accents. Small geometric flame shapes striking outward from circular ember orbit. Background with radiating triangular shapes in yellow-to-red gradient. Bold circular composition centered on figure. Face showing stern, protective expression. Propaganda-style text blocks in semi-circle above head. Strong black outline separating figure from fiery background."
+        },
+        {
+            "cardID": "FM-03",
+            "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman in smoke form. Body partially transformed into geometric smoke shapes rendered in black and gray with red edges. Form appears to be dissipating with angular smoke fragments separating from main body. Lower half of body completely transformed into triangular smoke shapes. Upper half still recognizable but with geometric fragmentation. Wearing simple black clothing now merging with smoke form. Background with diagonal yellow lines suggesting movement direction. Face still visible but partially obscured by smoke effect. Propaganda-style text at bottom of composition. Strong contrasting shapes creating sense of transformation."
+        },
+        {
+            "cardID": "FM-04",
+            "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman in offensive casting pose. Arms extended forward with hands directing large geometric fireball. Fireball rendered as collection of red and orange triangular shapes forming sphere. Body leaning forward with weight on front foot. Wearing simple black clothing with red accents. Background divided into radiating triangular sections getting progressively darker from center outward. Strong diagonal composition from bottom left to top right. Face with determined, focused expression. Three stylized heat meter bars visible beside figure in increasing sizes. Bold propaganda-style exclamation marks flanking fireball."
+        },
+        {
+            "cardID": "FM-05",
+            "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman in touching attack pose. Right arm extended forward with hand touching simplified opponent shape (rendered in black silhouette). Geometric red flame shapes spreading from touch point onto opponent. Small angular flame shapes hovering above left hand. Wearing simple black clothing with red accents. Background split diagonally with top section yellow and bottom section red. Plus-one symbol visible near touching hand. Additional geometric flame shapes floating above opponent silhouette (showing future damage). Face with intense, focused expression. Clock or time symbol rendered in constructivist style at top of composition."
+        },
+        {
+            "cardID": "FM-06",
+            "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman releasing stored heat. Arms thrust outward with geometric flames exploding from body in all directions. Multiple triangular and rectangular flame shapes radiating outward from center. Heat visibly leaving body, shown as red geometric shapes flowing outward. Wearing simple black clothing with red accents. Background with concentric circular shapes in yellow-to-red gradient. Card symbol visible in one hand, drawn in geometric constructivist style. Face with expression of release and relief. Empty heat meter bar visible beside figure. Mathematical division symbols incorporated into design, showing conversion of heat to damage."
+        },
+        {
+            "cardID": "FM-07",
+            "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman in defensive barrier pose. Wall of stylized geometric flames materializing in front of her. Flame barrier composed of interlocking red and orange triangular shapes. Arms raised with hands directly manipulating flame wall. Incoming attack shown as black angular shape being absorbed by flame barrier. Wearing simple black clothing with red accents. Background with vertical striped pattern in alternating yellow and black. Face showing concentration and defensive focus. Heat meter filling up beside figure, rendered in constructivist style. Minus-two damage symbol visible where attack meets barrier."
+        },
+        {
+            "cardID": "FM-08",
+            "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman in inward-focused pose. Eyes closed with hands pressed to chest. Intense internal flames visible inside body, rendered as geometric red and orange shapes within black silhouette. Small stylized flame shapes escaping from top of head. Wearing simple black clothing with red accents. Background with radiating lines in yellow getting progressively more red toward edges. Face with expression of intense concentration. Heat meter beside figure showing \"+3\" in bold constructivist typography. Energy cost reduction symbol (-1) visible beside figure in geometric style. Strong vertical composition emphasizing internal power building."
+        },
+        {
+            "cardID": "FM-L1",
+            "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman, now elderly with white hair and lined face, casting ultimate fire attack. Arms thrust forward directing massive geometric inferno. Extraordinarily powerful fire blast composed of complex interlocking red, orange and yellow shapes erupting from hands. Body showing perfect form despite age, rendered with more angular joints showing age. Background entirely consumed by triangular flame patterns radiating outward. Heat meter completely emptied beside figure. Small flame shapes consuming elder's body, showing physical toll. Face showing determination through pain. Large constructivist-style ancestral symbols incorporated into fire patterns. Mathematical symbols showing heat conversion to damage."
+        },
+        {
+            "cardID": "FM-L2",
+            "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman, now elderly with white hair and lined face, channeling ancestral fire power. Surrounded by five large geometric flame shapes hovering around body. Arms extended with palms up channeling power. Feet firmly planted shoulder-width apart. Simple black clothing now incorporated with red geometric flame patterns. Background with constructivist-style family tree diagram rendered in flame colors. Heat meter beside figure showing \"+5\" in bold typography. Fire magic cards floating nearby with \"-1\" energy symbols. Face showing strain but power. Small geometric skull shape at bottom showing health loss next turn. Clock symbol with X through it indicating no reactions."
+        },
+        {
+            "cardID": "FM-L3",
+            "prompt": "Single person, fully in frame. Russian Constructivist poster style with bold geometric shapes and limited color palette (red, black, yellow). Same Eastern European woman, now elderly with white hair and lined face, in ultimate fire stance. Body completely outlined in geometric flame shapes creating perfect silhouette of fire. Prominent +2 heat symbols appearing above head. Stylized damage meters showing heat conversion to damage. Wearing simple black clothing now completely integrated with red geometric patterns. Background divided into mathematical grid showing damage calculations. Face showing mixture of pain and power. Health loss symbols visible at feet. Strong vertical composition with elder at center of flame patterns. Constructivist-style text announcing \"NO NON-FIRE CARDS\" in bold typography. Perfect geometric balance showing mastery despite age burden."
+        },
+        {
+            "cardID": "LM-01",
+            "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). African American man in stylized Art Deco clothing with angular patterns. Body crackling with electricity, shown as geometric zigzag lines in bright neon blue emanating from limbs. Arms slightly apart with hands open, palms facing upward. Small electric arcs connecting between fingers. Standing in strong geometric pose with one foot slightly forward. Face with determined expression, highlighted by dramatic side lighting. Background with radiating metallic silver rays creating sunburst pattern. Electric charge meter in classic Art Deco font showing numerical value. Floor with reflective black and white checkerboard pattern. Border with zigzag lightning motifs in silver and blue."
+        },
+        {
+            "cardID": "LM-02",
+            "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man surrounded by protective electrical field. Transparent geometric dome of electricity surrounding body, composed of interlocking hexagonal patterns in bright blue. Arms crossed in front of chest in defensive position. Feet planted firmly in wide stance. Face calm but alert with dramatic upward lighting. Background with stylized Art Deco clouds in silver and white. Electric charge reduction symbols (-2) in classic Art Deco typography. Floor with reflective black and white geometric pattern. Small lightning bolts deflecting from electrical shield. Border with horizontal electric current patterns."
+        },
+        {
+            "cardID": "LM-03",
+            "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man partially transformed into electrical energy. Lower half of body dissolving into geometric lightning patterns in bright blue and white. Upper body still solid but with electrical current running across skin in angular patterns. Arms extended outward with hands crackling with energy. Face with expression of controlled transformation. Background with Art Deco speedlines suggesting rapid movement. Distance marker showing range change in classic Art Deco font. Floor with reflective surface showing electrical reflection. Charge meter showing \"-3\" in stylized typography. Border with vertical energy beam patterns."
+        },
+        {
+            "cardID": "LM-04",
+            "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man launching powerful lightning bolt. Arms thrust forward directing perfect geometric lightning bolt from hands. Lightning bolt rendered as angular zigzag pattern in bright blue and white, extending completely across frame. Body leaning forward with dramatic pose emphasizing power. Face with intense focused expression, dramatically lit from below by electric light. Background with Art Deco storm clouds in silver and dark blue. Charge meter showing variable values with mathematical symbols in Deco typography. Floor with star-burst pattern emanating from feet. Damage value indicators in classic Art Deco numerical style. Border with lightning strike patterns."
+        },
+        {
+            "cardID": "LM-05",
+            "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man creating chain lightning effect. Arms directing multiple branching lightning bolts connecting to several geometric target points. Lightning rendered as interconnected angular patterns with exact 90 and 45 degree angles. Body in balanced stance with weight evenly distributed. Face with expression of precise control. Background with Art Deco building silhouettes in silver and black. Charge meter showing \"+1\" in stylized typography. Floor with concentric circular patterns. Mathematical formulas in Art Deco style showing damage calculations based on charge. Border with branching electrical circuit patterns."
+        },
+        {
+            "cardID": "LM-06",
+            "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man releasing electrical overload. Arms spread wide with all accumulated charge exploding outward. Massive electrical discharge rendered as geometric starburst pattern with perfect symmetry in bright blue and white. Body arched backward with head tilted up. Face with expression of release and relief. Background with Art Deco theatrical curtain patterns in silver and black. Emptied charge meter with mathematical damage conversion in stylized typography. Floor with cracking geometric pattern from energy release. Card symbol in Art Deco style appearing in corner. Border with electrical discharge patterns radiating outward."
+        },
+        {
+            "cardID": "LM-07",
+            "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man creating electrical field trap. Arms extended to sides directing electrical energy to form barrier. Geometric electrical fence pattern in bright blue cutting across open space in front of him. Opponent (shown as simplified Art Deco silhouette) halted by electrical barrier. Face with expression of tactical control. Background with stylized Art Deco clock face showing interrupted time. Charge meter showing \"+2\" in stylized typography. Floor with geometric pattern highlighting position control. Dramatic spotlighting from above creating strong shadows. Border with horizontal barrier patterns."
+        },
+        {
+            "cardID": "LM-08",
+            "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man building electrical charge. Body surrounded by concentric rings of electrical energy in bright blue and white. Arms held close to body with hands cupped, containing small ball of concentrated lightning. Standing in balanced pose with feet perfectly positioned. Hair beginning to rise with static electricity. Face with expression of concentration and building power. Background with Art Deco voltage meter design showing increasing levels. Charge meter showing \"+3\" in stylized typography. Floor with geometric pattern radiating outward from feet. Energy cost reduction symbol in Deco style typography. Border with building intensity patterns from bottom to top."
+        },
+        {
+            "cardID": "LM-L1",
+            "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man, now elderly with white hair and lined face, casting ultimate lightning attack. Arms extended forward directing perfect thunderbolt of unprecedented power. Lightning bolt rendered as extraordinarily complex geometric pattern in intense blue-white with perfect symmetry. Body showing perfect form despite age, with subtle Art Deco styling suggesting ancestry. Face with expression of masterful control. Background with stylized Art Deco storm scene with multiple lightning strikes. Range indicators showing \"all ranges\" in classic Deco typography. Nullified defense symbols in Deco style. Empty charge meter for following turn. Border with ancestral lightning patterns showing heritage through geometric evolution."
+        },
+        {
+            "cardID": "LM-L2",
+            "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man, now elderly with white hair and lined face, channeling generational current. Surrounded by perfect geometric circuit of electrical energy floating in mid-air. Six concentrated points of electrical charge hovering around body in precise hexagonal arrangement. Arms extended with palms directing energy flow. Face showing strain beneath masterful control. Background with Art Deco family lineage pattern showing electrical mastery. Charge meter showing \"+6\" in stylized typography. Energy cost reduction symbols in Deco style. Health damage warning symbol for next turn. Border with intricate circuit patterns suggestive of family heritage."
+        },
+        {
+            "cardID": "LM-L3",
+            "prompt": "Single person, fully in frame. Art Deco style with sharp geometric patterns and metallic color scheme (electric blue, silver, white). Same African American man, now elderly with white hair and lined face, in perpetual electrical storm state. Body completely integrated with electrical storm, rendered as perfect symmetrical cloud of geometric lightning surrounding physical form. Constant lightning bolts striking from cloud to ground around him. Face showing mixture of power and physical toll. Background with Art Deco speed patterns suggesting accelerated attacks. Charge meters showing +2 per turn mechanic in Deco typography. Attack cost reduction mathematical formula in Deco style. Health damage indicator showing toll of maintaining storm. Maximum charge limit (10) indicator in stylized Deco font. Border with perpetual storm patterns emphasizing both power and cost."
+        }
+    ]
+}
