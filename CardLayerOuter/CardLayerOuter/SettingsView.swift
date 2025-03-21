@@ -1,81 +1,116 @@
-//
-//  SettingsView.swift
-//  CardLayerOuter
-//
-//  Created by Joe Ellegood on 3/21/25.
-//
-
 import SwiftUI
+import UniformTypeIdentifiers
 
 struct SettingsView: View {
+    @Environment(\.presentationMode) var presentationMode
     @State private var jsonDataPath: String = AppSettings.shared.jsonDataPath?.path ?? "Not set"
     @State private var cardImagesPath: String = AppSettings.shared.cardImagesPath?.path ?? "Not set"
-    @State private var showingJsonPicker = false
-    @State private var showingImageFolderPicker = false
+    
+    // Single state variable for file picking
+    @State private var isPicking = false
+    // Track what we're selecting
+    @State private var selectionType: SelectionType = .none
+    
+    enum SelectionType {
+        case none
+        case jsonFile
+        case imageFolder
+        
+        var allowedTypes: [UTType] {
+            switch self {
+            case .none:
+                return []
+            case .jsonFile:
+                return [.json]
+            case .imageFolder:
+                return [.folder]
+            }
+        }
+    }
     
     var body: some View {
-        Form {
-            Section(header: Text("Data Files")) {
-                HStack {
-                    Text("JSON Data File:")
-                    Spacer()
-                    Text(jsonDataPath)
-                        .foregroundColor(.secondary)
-                        .lineLimit(1)
-                        .truncationMode(.middle)
-                    Button("Browse") {
-                        showingJsonPicker = true
+        VStack {
+            Form {
+                Section(header: Text("Data Files")) {
+                    HStack {
+                        Text("JSON Data File:")
+                        Spacer()
+                        Text(jsonDataPath)
+                            .foregroundColor(.secondary)
+                            .lineLimit(1)
+                            .truncationMode(.middle)
+                        Button("Browse") {
+                            selectionType = .jsonFile
+                            isPicking = true
+                        }
                     }
-                }
-                
-                HStack {
-                    Text("Card Images Folder:")
-                    Spacer()
-                    Text(cardImagesPath)
-                        .foregroundColor(.secondary)
-                        .lineLimit(1)
-                        .truncationMode(.middle)
-                    Button("Browse") {
-                        showingImageFolderPicker = true
+                    
+                    HStack {
+                        Text("Card Images Folder:")
+                        Spacer()
+                        Text(cardImagesPath)
+                            .foregroundColor(.secondary)
+                            .lineLimit(1)
+                            .truncationMode(.middle)
+                        Button("Browse") {
+                            selectionType = .imageFolder
+                            isPicking = true
+                        }
                     }
                 }
             }
+            
+            // Add the dismiss button at the bottom
+            Button("Done") {
+                presentationMode.wrappedValue.dismiss()
+            }
+            .keyboardShortcut(.defaultAction)
+            .padding()
         }
         .padding()
         .frame(width: 500, height: 300)
+        // A single fileImporter that handles both cases
         .fileImporter(
-            isPresented: $showingJsonPicker,
-            allowedContentTypes: [.json],
+            isPresented: $isPicking,
+            allowedContentTypes: selectionType.allowedTypes,
             onCompletion: { result in
-                switch result {
-                case .success(let url):
-                    // Grant your app access to the file user selected
-                    if url.startAccessingSecurityScopedResource() {
-                        AppSettings.shared.updateJsonDataPath(url)
-                        jsonDataPath = url.path
-                        url.stopAccessingSecurityScopedResource()
-                    }
-                case .failure(let error):
-                    print("Error selecting JSON file: \(error)")
-                }
+                handleSelection(result)
             }
         )
-//        .fileImporter(
-//            isPresented: $showingImageFolderPicker,
-//            allowedContentTypes: [.folder],
-//            onCompletion: { result in
-//                switch result {
-//                case .success(let url):
-//                    // Grant your app access to the folder user selected
-//                    if url.startAccessingSecurityScopedResource() {
-//                        AppSettings.shared.updateCardImagesPath(url)
-//                        cardImagesPath = url.path
-//                        url.stopAccessingSecurityScopedResource()
-//                    }
-//                case .failure(let error):
-//                    print("Error selecting image folder: \(error)")
-//                }
-//            }
-//        )
+    }
+    
+    private func handleSelection(_ result: Result<URL, Error>) {
+        switch result {
+        case .success(let url):
+            // Grant your app access to the file user selected
+            guard url.startAccessingSecurityScopedResource() else {
+                print("Failed to access the selected file/folder")
+                return
+            }
+            
+            defer {
+                url.stopAccessingSecurityScopedResource()
+            }
+            
+            // Handle based on what we're currently selecting
+            switch selectionType {
+            case .jsonFile:
+                AppSettings.shared.updateJsonDataPath(url)
+                jsonDataPath = url.path
+                
+            case .imageFolder:
+                AppSettings.shared.updateCardImagesPath(url)
+                cardImagesPath = url.path
+                
+            case .none:
+                break
+            }
+            
+        case .failure(let error):
+            print("Error selecting file: \(error)")
+        }
+        
+        // Reset selection type
+        selectionType = .none
     }
 }
