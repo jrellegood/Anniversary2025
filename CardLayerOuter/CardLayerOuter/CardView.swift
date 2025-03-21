@@ -10,12 +10,10 @@ import SwiftUI
 struct CardView: View {
     let card: Card
     let styleIcon: String // SF Symbol name
-    let styleName: String
     let styleColor: Color
     
-    init(card: Card, styleName: String, styleIcon: String, styleColor: Color) {
+    init(card: Card, styleIcon: String, styleColor: Color) {
         self.card = card
-        self.styleName = styleName
         self.styleIcon = styleIcon
         self.styleColor = styleColor
     }
@@ -180,7 +178,6 @@ struct CardPreviewView: View {
         // For Blood Magic card
         CardView(
             card: Card.mockLegacyCard(),
-            styleName: "Blood Magic",
             styleIcon: "drop.fill",
             styleColor: .red
         )
@@ -188,7 +185,6 @@ struct CardPreviewView: View {
         // For Battle Axe card
         CardView(
             card: Card.mockAttackCard(),
-            styleName: "Battle Axe",
             styleIcon: "shield.fill",
             styleColor: Color(red: 0.6, green: 0.4, blue: 0.2) // Brown
         )
@@ -196,7 +192,6 @@ struct CardPreviewView: View {
         // For Longsword card
         CardView(
             card: Card.mockCard(),
-            styleName: "Longsword",
             styleIcon: "bolt.horizontal.fill",
             styleColor: .blue
         )

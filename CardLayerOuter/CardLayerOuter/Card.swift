@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct Card: Codable {
     // Core properties
@@ -201,14 +202,25 @@ struct Card: Codable {
     }
 }
 
-// For representing a fighting style with its cards
 struct FightingStyle: Codable {
     let styleName: String
     let styleDescription: String
     let styleType: StyleType
     let rangePreference: RangePreference
     let historicalInspiration: String?
+    let sfSymbol: String
+    let color: ColorComponents
     let cards: [Card]
+    
+    struct ColorComponents: Codable {
+        let red: Double
+        let green: Double
+        let blue: Double
+        
+        var swiftUIColor: Color {
+            Color(red: red, green: green, blue: blue)
+        }
+    }
     
     enum StyleType: String, Codable {
         case martial = "Martial"
@@ -221,6 +233,11 @@ struct FightingStyle: Codable {
         case flexibleRange = "Flexible Range"
     }
     
+    // Helper computed property to get the Color
+    var accentColor: Color {
+        return color.swiftUIColor
+    }
+    
     // Static factory method to create a mock fighting style
     static func mockFightingStyle() -> FightingStyle {
         return FightingStyle(
@@ -229,11 +246,9 @@ struct FightingStyle: Codable {
             styleType: .martial,
             rangePreference: .closeRange,
             historicalInspiration: "Based on the German school of swordsmanship from the 14th-16th centuries.",
-            cards: [
-                Card.mockCard(),
-                Card.mockAttackCard(),
-                Card.mockLegacyCard()
-            ]
+            sfSymbol: "bolt.horizontal.fill",
+            color: ColorComponents(red: 0.0, green: 0.0, blue: 0.8),
+            cards: [.mockAttackCard(), .mockCard(), .mockLegacyCard()]
         )
     }
 }
