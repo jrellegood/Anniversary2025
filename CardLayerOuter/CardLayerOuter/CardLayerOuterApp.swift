@@ -11,7 +11,9 @@ import SwiftUI
 struct CardLayerOuterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .frame(minWidth: 800, minHeight: 600)
         }
+        .windowStyle(HiddenTitleBarWindowStyle())
     }
 }

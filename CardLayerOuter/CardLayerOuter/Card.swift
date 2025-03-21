@@ -76,8 +76,8 @@ struct Card: Codable {
             
             switch rawValue {
             case "Any": self = .any
-            case "Close Range Only": self = .closeRangeOnly
-            case "Far Range Only": self = .farRangeOnly
+            case "Close Range Only", "Close Range only": self = .closeRangeOnly
+            case "Far Range Only", "Far Range Only (unless modified)": self = .farRangeOnly
             case "Far Range preferred", "Far Range Preferred": self = .farRangePreferred
             default:
                 throw DecodingError.dataCorruptedError(

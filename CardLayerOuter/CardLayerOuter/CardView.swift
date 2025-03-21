@@ -11,6 +11,7 @@ struct CardView: View {
     let card: Card
     let styleIcon: String // SF Symbol name
     let styleColor: Color
+    @State private var cardImage: NSImage?
     
     init(card: Card, styleIcon: String, styleColor: Color) {
         self.card = card
@@ -37,23 +38,31 @@ struct CardView: View {
             
             Divider()
             
-            // Placeholder for card image
-            ZStack {
-                Rectangle()
-                    .fill(styleColor.opacity(0.1))
-                    .aspectRatio(1, contentMode: .fit)
-                
-                VStack {
-                    Image(systemName: "photo")
-                        .font(.largeTitle)
-                        .foregroundColor(styleColor.opacity(0.3))
+            // Card image from file system
+            if let image = cardImage {
+                Image(nsImage: image)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .cornerRadius(8)
+            } else {
+                // Your existing placeholder
+                ZStack {
+                    Rectangle()
+                        .fill(styleColor.opacity(0.1))
+                        .aspectRatio(1, contentMode: .fit)
                     
-                    Text("\(card.name) Image")
-                        .font(.caption)
-                        .foregroundColor(styleColor.opacity(0.5))
+                    VStack {
+                        Image(systemName: "photo")
+                            .font(.largeTitle)
+                            .foregroundColor(styleColor.opacity(0.3))
+                        
+                        Text("\(card.name) Image")
+                            .font(.caption)
+                            .foregroundColor(styleColor.opacity(0.5))
+                    }
                 }
+                .cornerRadius(8)
             }
-            .cornerRadius(8)
             
             // Card metadata
             metadataView
@@ -133,6 +142,9 @@ struct CardView: View {
                 .strokeBorder(styleColor.opacity(0.8), lineWidth: 12)
         )
         .frame(width: 350, height: 600)
+        .onAppear {
+            loadCardImage()
+        }
     }
     
     struct MetadataComponentView: View {
@@ -168,6 +180,12 @@ struct CardView: View {
                     .frame(maxHeight: 28)
             }
             MetadataComponentView(title: "Range", text: card.rangeRestriction.rawValue)
+        }
+    }
+    
+    private func loadCardImage() {
+        if let imagesPath = AppSettings.shared.cardImagesPath {
+            cardImage = CardDataService.shared.loadImage(named: card.id, from: imagesPath)
         }
     }
 }
