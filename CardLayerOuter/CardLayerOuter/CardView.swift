@@ -1,0 +1,210 @@
+//
+//  CardView.swift
+//  CardLayerOuter
+//
+//  Created by Joe Ellegood on 3/21/25.
+//
+
+import SwiftUI
+
+struct CardView: View {
+    let card: Card
+    let styleIcon: String // SF Symbol name
+    let styleName: String
+    let styleColor: Color
+    
+    init(card: Card, styleName: String, styleIcon: String, styleColor: Color) {
+        self.card = card
+        self.styleName = styleName
+        self.styleIcon = styleIcon
+        self.styleColor = styleColor
+    }
+    
+    var body: some View {
+        VStack(spacing: 12) {
+            // Header with icon and title
+            HStack {
+                Image(systemName: styleIcon)
+                    .font(.title2)
+                    .foregroundColor(styleColor)
+                
+                Text(card.name)
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .foregroundColor(styleColor)
+                
+                Spacer()
+            }
+            .padding(.horizontal)
+            
+            Divider()
+            
+            // Placeholder for card image
+            ZStack {
+                Rectangle()
+                    .fill(styleColor.opacity(0.1))
+                    .aspectRatio(1, contentMode: .fit)
+                
+                VStack {
+                    Image(systemName: "photo")
+                        .font(.largeTitle)
+                        .foregroundColor(styleColor.opacity(0.3))
+                    
+                    Text("\(card.name) Image")
+                        .font(.caption)
+                        .foregroundColor(styleColor.opacity(0.5))
+                }
+            }
+            .cornerRadius(8)
+            
+            // Card metadata
+            metadataView
+            
+            // Card effects and text
+            VStack(alignment: .leading, spacing: 12) {
+                // Effect
+                VStack(alignment: .leading, spacing: 4) {
+                    Text("EFFECT")
+                        .font(.caption)
+                        .fontWeight(.bold)
+                        .foregroundColor(styleColor)
+                    
+                    Text(card.effect)
+                        .font(.caption)
+                        .foregroundColor(.primary)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+                
+                // Master Effect if exists
+                if let masterEffect = card.masterEffect {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("MASTER EFFECT")
+                            .font(.caption)
+                            .fontWeight(.bold)
+                            .foregroundColor(styleColor)
+                        
+                        Text(masterEffect)
+                            .font(.caption)
+                            .foregroundColor(.primary)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
+                }
+                
+                // Drawback if exists
+                if let drawback = card.drawback {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("DRAWBACK")
+                            .font(.caption)
+                            .fontWeight(.bold)
+                            .foregroundColor(.red)
+                        
+                        Text(drawback)
+                            .font(.caption)
+                            .foregroundColor(.primary)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
+                }
+                
+                // Flavor text
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(card.flavorText)
+                        .font(.caption)
+                        .italic()
+                        .foregroundColor(.secondary)
+                        .fixedSize(horizontal: false, vertical: true)
+                        .padding(.top, 4)
+                }
+            }
+            .padding(.horizontal)
+            
+            Spacer()
+            
+            HStack {
+                Spacer()
+                Text(card.id)
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+            }
+            .padding(.horizontal)
+        }
+        .padding(.vertical)
+        .background(Color.gray)
+        .clipShape(RoundedRectangle(cornerRadius: 24))
+        .overlay(
+            RoundedRectangle(cornerRadius: 24)
+                .strokeBorder(styleColor.opacity(0.8), lineWidth: 12)
+        )
+        .frame(width: 350, height: 600)
+    }
+    
+    struct MetadataComponentView: View {
+        var title: String
+        var text: String
+        
+        var body: some View {
+            VStack {
+                Text(title)
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+                Text(text)
+                    .font(.caption)
+                    .fontWeight(.semibold)
+            }
+        }
+    }
+    
+    var metadataView: some View {
+        HStack(spacing: 16) {
+            MetadataComponentView(title: "Type", text: card.type.rawValue)
+            Divider()
+                .frame(maxHeight: 28)
+            MetadataComponentView(title: "Cost", text: "\(card.cost)")
+            Divider()
+                .frame(maxHeight: 28)
+            MetadataComponentView(title: "Die", text: card.focusDie.rawValue)
+            Divider()
+                .frame(maxHeight: 28)
+            if let stanceType = card.stanceType {
+                MetadataComponentView(title: "Stance", text: stanceType.rawValue)
+                Divider()
+                    .frame(maxHeight: 28)
+            }
+            MetadataComponentView(title: "Range", text: card.rangeRestriction.rawValue)
+        }
+    }
+}
+
+// Helper to create card preview with appropriate style colors
+struct CardPreviewView: View {
+    var body: some View {
+        // For Blood Magic card
+        CardView(
+            card: Card.mockLegacyCard(),
+            styleName: "Blood Magic",
+            styleIcon: "drop.fill",
+            styleColor: .red
+        )
+        
+        // For Battle Axe card
+        CardView(
+            card: Card.mockAttackCard(),
+            styleName: "Battle Axe",
+            styleIcon: "shield.fill",
+            styleColor: Color(red: 0.6, green: 0.4, blue: 0.2) // Brown
+        )
+        
+        // For Longsword card
+        CardView(
+            card: Card.mockCard(),
+            styleName: "Longsword",
+            styleIcon: "bolt.horizontal.fill",
+            styleColor: .blue
+        )
+    }
+}
+
+struct CardView_Previews: PreviewProvider {
+    static var previews: some View {
+        CardPreviewView()
+    }
+}

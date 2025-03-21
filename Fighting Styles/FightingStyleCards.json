@@ -451,7 +451,7 @@
     "historicalInspiration": "Frost Magic draws from historical winter-focused mystical traditions across multiple cultures. Western influences include Germanic and Norse frost magic beliefs documented in the Poetic Edda (particularly Snorri Sturluson's 'Gylfaginning', c. 13th century) and Icelandic grimoires like the 'Galdrabók' (c. 17th century) which contain frost and ice-control spells. Eastern traditions incorporate Japanese 'Hyōton' concepts from the 'Fūsui Unmei Kantei Shō' (風水運命鑑定書, c. 18th century) detailing weather manipulation and the Chinese 'Bīng Fǎ' (冰法) techniques described in Taoist alchemical texts from the Tang Dynasty. The style also draws from Siberian shaman practices of winter spirits as documented in the 'Tengrism' oral traditions and Russian 'Morozko' folklore. The stance-based system mirrors similar control-focused approaches in both Western and Eastern mystic traditions where practitioners create areas of influence through positioning and tactical awareness rather than accumulating specific energies.",
     "cards": [
         {
-            "id": "FM-01",
+            "id": "IM-01",
             "name": "Ice Palace",
             "subtitle": "Defensive Barrier",
             "type": "Stance",
@@ -464,7 +464,7 @@
             "rangeRestriction": "Any"
         },
         {
-            "id": "FM-02",
+            "id": "IM-02",
             "name": "Let It Go",
             "subtitle": "Flowing Evasion",
             "type": "Stance",
@@ -477,7 +477,7 @@
             "rangeRestriction": "Any"
         },
         {
-            "id": "FM-03",
+            "id": "IM-03",
             "name": "Winter Storm",
             "subtitle": "Aggressive Flurry",
             "type": "Stance",
@@ -490,7 +490,7 @@
             "rangeRestriction": "Any"
         },
         {
-            "id": "FM-04",
+            "id": "IM-04",
             "name": "Ice Spear",
             "subtitle": "Crystalline Projectile",
             "type": "Attack",
@@ -502,7 +502,7 @@
             "rangeRestriction": "Far Range preferred"
         },
         {
-            "id": "FM-05",
+            "id": "IM-05",
             "name": "Frozen Heart",
             "subtitle": "Core Freeze",
             "type": "Attack",
@@ -514,7 +514,7 @@
             "rangeRestriction": "Any"
         },
         {
-            "id": "FM-06",
+            "id": "IM-06",
             "name": "Cold Reflection",
             "subtitle": "Ice Mirror Counter",
             "type": "Reaction",
@@ -526,7 +526,7 @@
             "rangeRestriction": "Any"
         },
         {
-            "id": "FM-07",
+            "id": "IM-07",
             "name": "Frozen Fractals",
             "subtitle": "Area Control",
             "type": "Technique",
@@ -538,7 +538,7 @@
             "rangeRestriction": "Any"
         },
         {
-            "id": "FM-08",
+            "id": "IM-08",
             "name": "The Snow Glows White",
             "subtitle": "Concealing Blizzard",
             "type": "Technique",
@@ -550,7 +550,7 @@
             "rangeRestriction": "Any"
         },
         {
-            "id": "FM-L1",
+            "id": "IM-L1",
             "name": "North Mountain",
             "subtitle": "Legacy Stance",
             "type": "Stance",
@@ -564,7 +564,7 @@
             "rangeRestriction": "Any"
         },
         {
-            "id": "FM-L2",
+            "id": "IM-L2",
             "name": "Eternal Winter",
             "subtitle": "Legacy Attack",
             "type": "Attack",
@@ -577,7 +577,7 @@
             "rangeRestriction": "Any"
         },
         {
-            "id": "FM-L3",
+            "id": "IM-L3",
             "name": "Ancestral Blizzard",
             "subtitle": "Legacy Technique",
             "type": "Technique",
