@@ -12,8 +12,8 @@ struct CardLayerOuterApp: App {
     var body: some Scene {
         WindowGroup {
             MainView()
-                .frame(minWidth: 800, minHeight: 600)
+                .frame(minWidth: 900, minHeight: 600)
+                .navigationViewStyle(DoubleColumnNavigationViewStyle())
         }
-        .windowStyle(HiddenTitleBarWindowStyle())
     }
 }

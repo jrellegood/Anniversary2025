@@ -13,52 +13,57 @@ struct MainView: View {
     @State private var isLoading = false
     @State private var errorMessage: String? = nil
     @State private var showSettings = false
+    @State private var selectedStyleName: String? = nil
     
     var body: some View {
-        VStack {
-            if isLoading {
-                ProgressView("Loading data...")
-            } else if let error = errorMessage {
-                VStack {
-                    Text("Error loading data")
-                        .font(.headline)
-                    Text(error)
-                        .foregroundColor(.red)
-                    Button("Open Settings") {
-                        showSettings = true
-                    }
-                    .padding()
-                }
-            } else if fightingStyles.isEmpty {
-                VStack {
-                    Text("No data loaded")
-                        .font(.headline)
-                    Button("Open Settings") {
-                        showSettings = true
-                    }
-                    .padding()
-                    Button("Load Data") {
-                        loadData()
-                    }
-                    .padding()
-                    .disabled(AppSettings.shared.jsonDataPath == nil)
-                }
-            } else {
-                // Your card browsing UI here
-                ScrollView {
-                    LazyVGrid(columns: [GridItem(.adaptive(minimum: 350))], spacing: 20) {
-                        ForEach(Array(fightingStyles.keys), id: \.self) { styleName in
-                            if let style = fightingStyles[styleName], !style.cards.isEmpty {
-                                CardView(
-                                    card: style.cards[0],
-                                    styleIcon: style.sfSymbol,
-                                    styleColor: style.accentColor
-                                )
+        NavigationSplitView {
+            // Sidebar content
+            VStack {
+                if isLoading {
+                    ProgressView("Loading data...")
+                } else if let error = errorMessage {
+                    ContentUnavailableView(
+                        "Oops, something went wrong!",
+                        image: "exclamationmark.triangle.fill",
+                        description: Text(String(describing: error))
+                    )
+                } else if fightingStyles.isEmpty {
+                    ContentUnavailableView(
+                        "No fighting styles to show!",
+                        image: "square.dotted"
+                    )
+                } else {
+                    List(selection: $selectedStyleName) {
+                        ForEach(Array(fightingStyles.keys).sorted(), id: \.self) { styleName in
+                            if let style = fightingStyles[styleName] {
+                                HStack {
+                                    Image(systemName: style.sfSymbol)
+                                        .foregroundColor(style.accentColor)
+                                    Text(style.styleName)
+                                }
+                                .tag(styleName)
                             }
                         }
                     }
-                    .padding()
                 }
+            }
+            .navigationTitle("Fighting Styles")
+            .toolbar {
+                ToolbarItem {
+                    Button(action: {
+                        showSettings = true
+                    }) {
+                        Image(systemName: "gear")
+                    }
+                }
+            }
+        } detail: {
+            if let selectedName = selectedStyleName, let selectedStyle = fightingStyles[selectedName] {
+                FightingStyleDetailView(style: selectedStyle)
+            } else {
+                Text("Select a fighting style to view its cards")
+                    .font(.title2)
+                    .foregroundColor(.secondary)
             }
         }
         .sheet(isPresented: $showSettings) {
@@ -69,15 +74,6 @@ struct MainView: View {
         }
         .onAppear {
             loadData()
-        }
-        .toolbar {
-            ToolbarItem {
-                Button(action: {
-                    showSettings = true
-                }) {
-                    Image(systemName: "gear")
-                }
-            }
         }
     }
     

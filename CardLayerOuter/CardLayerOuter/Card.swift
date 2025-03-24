@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct Card: Codable {
+struct Card: Codable, Identifiable {
     // Core properties
     let id: String
     let name: String
@@ -202,7 +202,9 @@ struct Card: Codable {
     }
 }
 
-struct FightingStyle: Codable {
+struct FightingStyle: Codable, Identifiable {
+    var id: String { styleName }
+    
     let styleName: String
     let styleDescription: String
     let styleType: StyleType
