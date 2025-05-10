@@ -8,7 +8,6 @@ Dual Mastery is a tactical card game where players combine two different fightin
 - 6+ style decks (8 cards each)
 - Legacy cards for each style (3 cards each)
 - Focus dice (d4, d6, d8, d10, d12)
-- Environment deck(s)
 - Health trackers
 - Focus tokens
 - Range tracking marker
@@ -20,9 +19,7 @@ Dual Mastery is a tactical card game where players combine two different fightin
 1. Each player selects 2 fighting styles (8 cards each) and combines them into a 16-card deck
 2. Shuffle your deck and draw 5 cards to form your starting hand
 3. Each player starts with 20 health
-4. Place the Environment deck facedown nearby
-5. Reveal the top card of the Environment deck and apply its effects
-6. Determine the first player randomly
+4. Determine the first player randomly
 
 #### Game Area
 - **Hand**: Cards you can play
@@ -35,7 +32,6 @@ Dual Mastery is a tactical card game where players combine two different fightin
 ### TURN SEQUENCE
 
 1. **Beginning Phase**
-   - Roll for Environment change (5-6 on a d6)
    - Draw a card (maximum hand size is 7)
 
 2. **Focus Phase**
@@ -51,6 +47,7 @@ Dual Mastery is a tactical card game where players combine two different fightin
 
 4. **End Phase**
    - Used Focus cards go to your Meditation Zone
+   - You may bank up to 2 unused energy as "Focused Energy" for your next turn
    - Resolve any "end of turn" effects
    - Play passes to your opponent
 
@@ -62,6 +59,8 @@ Dual Mastery is a tactical card game where players combine two different fightin
 - During your turn, roll all Focus dice to generate energy
 - Energy is spent to play cards from your hand
 - Used Focus goes to Meditation (discard pile)
+- You may bank up to 2 unused energy at the end of your turn as "Focused Energy"
+- Banked "Focused Energy" can be used on your next turn, but disappears at the end of that turn
 
 #### 2. Stance Advantage System
 - Three stance types: Aggressive (Red), Defensive (Blue), Evasive (Green)
@@ -97,12 +96,6 @@ Dual Mastery is a tactical card game where players combine two different fightin
   - Bow: Range positioning (distance management)
   - Other styles: Similar unique mechanics
 
-#### 6. Environment System
-- Environment cards affect all players
-- Roll a d6 at the beginning of each turn; on a 5-6, change to a new Environment
-- Environment effects last until the next Environment change
-- Environments modify various game mechanics based on the battlefield conditions
-
 ### BLOODLINE LEGACY SYSTEM
 
 #### 1. Generational Inheritance
@@ -121,8 +114,10 @@ Dual Mastery is a tactical card game where players combine two different fightin
 - A player can only have one Legacy Card per Mastered style in their deck
 
 #### 3. Champion's Burden
-- After winning 3 consecutive matches, the Champion faces increasingly difficult environmental effects
-- The Champion rolls with disadvantage when determining Environment changes
+- After winning 3 consecutive matches, the Champion faces challenges such as:
+  - Starting with -2 health in subsequent matches
+  - Drawing one fewer card in their starting hand
+  - The challenger may view one card in the Champion's hand at the start of the match
 - "The weight of the crown brings new challenges..."
 
 #### 4. Bloodline Record
@@ -160,17 +155,6 @@ Dual Mastery is a tactical card game where players combine two different fightin
 - Provide powerful effects combined with meaningful drawbacks
 - Replace standard cards in a deck when a style becomes Mastered
 - Each style has three potential Legacy cards, but only one can be in a deck at a time
-
-### ENVIRONMENT CARDS
-
-#### Effects on Gameplay
-- Modify various mechanics like stance costs, damage values, etc.
-- Create conditional bonuses or penalties
-- Apply equally to all players
-
-#### Types of Environments
-- **Forest**: Dense woodland that rewards stealth and territorial control
-- Other environments each have distinct thematic and mechanical impacts
 
 ### WINNING THE GAME
 - Reduce your opponent's health to 0
@@ -227,18 +211,19 @@ Dual Mastery is a tactical card game where players combine two different fightin
 - **Generational Redirection**: Perfect damage negation and reflection, but forces hand reset afterward
 - **Elder's Reservoir**: Gain significant Flow immediately and reduce costs, but lose health
 
-### SAMPLE BLOODLINE TURN
+### SAMPLE TURN
 
 1. **Beginning Phase**
-   - Kamilla (playing a 2nd generation Battle Axe / 1st generation Water Magic character) rolls a 4 for Environment (no change)
-   - Kamilla draws a card
+   - Kamilla (playing a 2nd generation Battle Axe / 1st generation Water Magic character) draws a card
    - Both players are currently at Close Range
 
 2. **Focus Phase**
    - Kamilla places 2 cards as Focus (d10 and d6)
 
 3. **Action Phase**
+   - Kamilla starts with 2 Focused Energy banked from her previous turn
    - Kamilla rolls Focus dice: d10 shows 7, d6 shows 4 (total: 11 energy)
+   - Combined with her banked energy, Kamilla has 13 energy to spend this turn
    - Kamilla spends 2 energy to enter "Høggva" Aggressive stance
    - Kamilla spends 4 energy to play "Ancestral Cleave" Legacy attack, dealing 3 base damage
    - Kamilla spends 3 Momentum to add 3 damage to the attack (total: 6 damage)
@@ -247,22 +232,24 @@ Dual Mastery is a tactical card game where players combine two different fightin
 
 4. **End Phase**
    - Used Focus cards go to Meditation
-   - Turn ends, play passes to the Champion
+   - Kamilla has 2 unused energy, which she banks as Focused Energy for her next turn
+   - Turn ends, play passes to her opponent
 
 ### STRATEGY TIPS
 
 - **Deck Building**: Balance your two styles to create synergies, considering range preferences
 - **Resource Management**: Decide when to use cards as Focus vs. playing them
+- **Energy Banking**: Strategically save up to 2 energy for critical next-turn plays
 - **Stance Dancing**: Time your stance changes to gain advantages
 - **Range Control**: Position yourself optimally for your fighting style
 - **Style Mastery**: Try to play multiple cards from the same style to trigger Master Effects
-- **Environment Adaptation**: Adjust your strategy based on changing Environment effects
 - **Legacy Integration**: Choose Legacy cards that complement your playstyle while mitigating their drawbacks
 - **Generational Planning**: When defeated, pass down the style that works best with your next chosen style
 
 ### GLOSSARY
 
 - **Focus**: Cards placed face-down as resources
+- **Focused Energy**: Up to 2 energy banked from previous turn, usable only on your next turn
 - **Meditation**: Your discard pile
 - **Stance**: An ongoing card that provides effects while active
 - **Master Effect**: A bonus effect that triggers when you've played multiple cards of the same style
