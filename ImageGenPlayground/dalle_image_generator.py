@@ -118,9 +118,7 @@ def main():
         # Generate the image
         if generate_image(client, prompt, card_id, args.output, args.size, args.quality, args.overwrite):
             successful += 1
-        
-        # Add a short delay to avoid rate limits
-        if i < len(prompts) - 1:
+            # Add a short delay to avoid rate limits
             time.sleep(1)
     
     # Print summary

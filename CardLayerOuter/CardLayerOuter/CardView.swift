@@ -38,12 +38,14 @@ struct CardView: View {
             
             Divider()
             
-            // Card image from file system
+            // In your CardView struct:
             if let image = cardImage {
                 Image(nsImage: image)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .cornerRadius(8)
+                    .border(Color.white, width: 2)
+                    .shadow(radius: 2)
             } else {
                 // Your existing placeholder
                 ZStack {
