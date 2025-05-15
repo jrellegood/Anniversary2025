@@ -23,12 +23,19 @@ struct CardView: View {
         VStack(spacing: 12) {
             // Header with icon and title
             HStack {
-                Image(systemName: styleIcon)
-                    .font(.title2)
-                    .foregroundColor(styleColor)
+                Circle()
+                    .fill(styleColor.muted())
+                    .strokeBorder()
+                    .overlay {
+                        Image(systemName: styleIcon)
+                            .font(.system(size: 20))
+                            .foregroundColor(styleColor)
+                            .shadow(color: .black, radius: 2)
+                    }
+                    .frame(width: 36, height: 36)
                 
                 Text(card.name)
-                    .font(.title2)
+                    .font(.title)
                     .fontWeight(.bold)
                     .foregroundColor(styleColor)
                 
@@ -68,6 +75,8 @@ struct CardView: View {
             
             // Card metadata
             metadataView
+                .padding(4)
+                .background(.black.opacity(0.4))
             
             // Card effects and text
             VStack(alignment: .leading, spacing: 12) {
@@ -124,9 +133,9 @@ struct CardView: View {
                         .padding(.top, 4)
                 }
             }
+            .padding(4)
+            .background(.black.opacity(0.4))
             .padding(.horizontal)
-            
-            Spacer()
             
             HStack {
                 Spacer()
@@ -137,13 +146,19 @@ struct CardView: View {
             .padding(.horizontal)
         }
         .padding(.vertical)
-        .background(Color.gray)
+        .background {
+            Image("Background")
+                .resizable()
+                .overlay(.black.opacity(0.6))
+                .blur(radius: 6)
+        }
+//        .background(Color.gray)
         .clipShape(RoundedRectangle(cornerRadius: 24))
         .overlay(
             RoundedRectangle(cornerRadius: 24)
                 .strokeBorder(styleColor.opacity(0.8), lineWidth: 12)
         )
-        .frame(width: 350, height: 600)
+        .frame(width: 375, height: 525)
         .onAppear {
             loadCardImage()
         }
