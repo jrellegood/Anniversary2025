@@ -200,22 +200,58 @@ struct SettingsView: View {
     private func handleExportFolderSelection(_ result: Result<URL, Error>) {
         switch result {
         case .success(let folderURL):
-            // Start export process
-            guard folderURL.startAccessingSecurityScopedResource() else {
-                print("Failed to access the selected export folder")
-                return
-            }
+            print("Selected export folder: \(folderURL.path)")
             
-            defer {
-                folderURL.stopAccessingSecurityScopedResource()
-            }
+            // Start export process with security-scoped bookmarks
+            let hasAccess = folderURL.startAccessingSecurityScopedResource()
+            print("Has security-scoped access: \(hasAccess)")
             
-            // Start the export process
-            startCardExport(to: folderURL)
+            if hasAccess {
+                // Keep reference to the security-scoped bookmark
+                saveFolderBookmark(folderURL)
+                
+                // This is important: keep the folder URL accessible for the duration of export
+                // We'll release access once export is complete
+                DispatchQueue.global(qos: .userInitiated).async {
+                    // Start the export process
+                    self.startCardExport(to: folderURL)
+                    
+                    // Once complete, stop accessing the resource
+                    folderURL.stopAccessingSecurityScopedResource()
+                    print("Stopped accessing security-scoped resource")
+                }
+            } else {
+                print("Failed to access the selected export folder: permission denied")
+                showExportError("Permission denied to access the selected folder.")
+            }
             
         case .failure(let error):
             print("Error selecting export folder: \(error)")
+            showExportError("Failed to select export folder: \(error.localizedDescription)")
         }
+    }
+    
+    // Save bookmark for later access to this folder
+    private func saveFolderBookmark(_ url: URL) {
+        do {
+            let bookmarkData = try url.bookmarkData(options: .minimalBookmark,
+                                                   includingResourceValuesForKeys: nil,
+                                                   relativeTo: nil)
+            UserDefaults.standard.set(bookmarkData, forKey: "lastExportFolderBookmark")
+            print("Saved security bookmark for folder")
+        } catch {
+            print("Failed to create bookmark for export folder: \(error)")
+        }
+    }
+    
+    // Show error alert
+    private func showExportError(_ message: String) {
+        let alert = NSAlert()
+        alert.messageText = "Export Error"
+        alert.informativeText = message
+        alert.alertStyle = .warning
+        alert.addButton(withTitle: "OK")
+        alert.runModal()
     }
     
     private func startCardExport(to directory: URL) {
@@ -226,49 +262,46 @@ struct SettingsView: View {
         totalCardsToExport = 0
         currentExportStyle = ""
         
-        print("Starting card export to directory: \(directory.path)")
+        Logging.default.log("Starting card export to directory: \(directory.path)")
         
         // Count total cards to export
         for (_, style) in fightingStyles {
             totalCardsToExport += style.cards.count
         }
         
-        print("Total cards to export: \(totalCardsToExport)")
+        Logging.default.log("Total cards to export: \(totalCardsToExport)")
         
-        // Begin export in background thread
-        DispatchQueue.global(qos: .userInitiated).async {
+        DispatchQueue.main.async {
             CardExportService.shared.exportAllCards(self.fightingStyles, toDirectory: directory) { exported, total, styleName in
                 // Update progress on main thread
-                DispatchQueue.main.async {
-                    // Update the UI with our progress
-                    self.cardsExported = exported
-                    self.currentExportStyle = styleName
+                // Update the UI with our progress
+                self.cardsExported = exported
+                self.currentExportStyle = styleName
+                
+                // Calculate progress as a fraction (avoiding division by zero)
+                if total > 0 {
+                    self.exportProgress = Double(exported) / Double(total)
+                } else {
+                    self.exportProgress = 0
+                }
+                
+                Logging.default.log("Progress update: \(exported)/\(total) cards exported (\(self.exportProgress * 100)%), current style: \(styleName)")
+                
+                // Check if export is complete
+                if exported >= total {
+                    Logging.default.log("Export completed")
+                    self.isExporting = false
                     
-                    // Calculate progress as a fraction (avoiding division by zero)
-                    if total > 0 {
-                        self.exportProgress = Double(exported) / Double(total)
-                    } else {
-                        self.exportProgress = 0
-                    }
+                    // Show completion notification using UNUserNotificationCenter
+                    let content = UNMutableNotificationContent()
+                    content.title = "Card Export Complete"
+                    content.body = "Successfully exported \(total) cards to PNG format."
+                    content.sound = UNNotificationSound.default
                     
-                    print("Progress update: \(exported)/\(total) cards exported (\(self.exportProgress * 100)%), current style: \(styleName)")
-                    
-                    // Check if export is complete
-                    if exported >= total {
-                        print("Export completed")
-                        self.isExporting = false
-                        
-                        // Show completion notification using UNUserNotificationCenter
-                        let content = UNMutableNotificationContent()
-                        content.title = "Card Export Complete"
-                        content.body = "Successfully exported \(total) cards to PNG format."
-                        content.sound = UNNotificationSound.default
-                        
-                        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: nil)
-                        UNUserNotificationCenter.current().add(request) { error in
-                            if let error = error {
-                                print("Error showing notification: \(error.localizedDescription)")
-                            }
+                    let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: nil)
+                    UNUserNotificationCenter.current().add(request) { error in
+                        if let error = error {
+                            Logging.default.log("Error showing notification: \(error.localizedDescription)")
                         }
                     }
                 }

@@ -30,7 +30,7 @@ struct MainView: View {
                 } else if fightingStyles.isEmpty {
                     ContentUnavailableView(
                         "No fighting styles to show!",
-                        image: "square.dotted"
+                        systemImage: "square.dotted"
                     )
                 } else {
                     List(selection: $selectedStyleName) {

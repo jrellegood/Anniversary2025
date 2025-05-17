@@ -1,5 +1,10 @@
 import SwiftUI
 import AppKit
+import os.log
+
+enum Logging {
+    static let `default` = Logger(subsystem: "com.joe.CardLayerOuter", category: "default")
+}
 
 class CardExportService {
     static let shared = CardExportService()
@@ -19,14 +24,14 @@ class CardExportService {
         do {
             if let pngData = renderViewAsPNG(cardView) {
                 try pngData.write(to: fileURL)
-                print("Successfully exported card: \(card.id) to \(fileURL.path)")
+                Logging.default.log("Successfully exported card: \(card.id) to \(fileURL.path)")
                 return fileURL
             } else {
-                print("Failed to render card \(card.id) to PNG")
+                Logging.default.log("Failed to render card \(card.id) to PNG")
                 return nil
             }
         } catch {
-            print("Error saving card image: \(error.localizedDescription)")
+            Logging.default.log("Error saving card image: \(error.localizedDescription)")
             return nil
         }
     }
@@ -37,7 +42,7 @@ class CardExportService {
         
         // Process each card
         for (index, card) in style.cards.enumerated() {
-            print("Exporting card \(index+1) of \(totalCards) for style \(style.styleName)")
+            Logging.default.log("Exporting card \(index+1) of \(totalCards) for style \(style.styleName)")
             let _ = exportCard(card, styleIcon: style.sfSymbol, styleColor: style.accentColor, toDirectory: directory)
             // Report progress
             progressHandler(index + 1, totalCards)
@@ -56,60 +61,124 @@ class CardExportService {
             totalCards += style.cards.count
         }
         
-        print("Starting export of \(totalCards) cards from \(totalStyles) styles to \(directory.path)")
+        Logging.default.log("Starting export of \(totalCards) cards from \(totalStyles) styles to \(directory.path)")
         
-        // Check if destination directory is writable
-        if !FileManager.default.isWritableFile(atPath: directory.path) {
-            print("ERROR: Destination directory is not writable: \(directory.path)")
-            return
+        // Verify directory access and permissions
+        if !verifyDirectoryAccess(directory) {
+            Logging.default.log("ERROR: Cannot access destination directory: \(directory.path)")
+            // Continue anyway - we'll try to create subdirectories and handle failures per style
         }
         
         // Process each style
         for (styleName, style) in styles {
             currentStyleIndex += 1
-            print("Processing style \(currentStyleIndex) of \(totalStyles): \(styleName)")
+            Logging.default.log("Processing style \(currentStyleIndex) of \(totalStyles): \(styleName)")
             
-            // Create subfolder for this style
+            // Create subfolder for this style within the parent directory
             let styleDirectory = directory.appendingPathComponent(style.styleName, isDirectory: true)
             
-            do {
-                // Check if style directory already exists
-                if FileManager.default.fileExists(atPath: styleDirectory.path) {
-                    print("Style directory already exists: \(styleDirectory.path)")
-                } else {
-                    print("Creating style directory: \(styleDirectory.path)")
-                    try FileManager.default.createDirectory(at: styleDirectory, withIntermediateDirectories: true)
-                }
-                
-                print("Exporting \(style.cards.count) cards for style \(styleName)")
-                
-                // Export all cards for this style
-                for (cardIndex, card) in style.cards.enumerated() {
-                    // Provide detailed progress to help debug
-                    print("Exporting card \(cardIndex+1)/\(style.cards.count) (global: \(totalExportedCards+1)/\(totalCards)): \(card.id) for style \(styleName)")
-                    
-                    // Call export method
-                    let exportResult = exportCard(card, styleIcon: style.sfSymbol, styleColor: style.accentColor, toDirectory: styleDirectory)
-                    
-                    // Increment counter regardless of success (to avoid hanging)
-                    totalExportedCards += 1
-                    
-                    // Report progress after each card
-                    progressHandler(totalExportedCards, totalCards, styleName)
-                }
-                
-            } catch {
-                print("ERROR creating directory for style \(style.styleName): \(error.localizedDescription)")
+            // Try to create the style directory with proper error handling
+            if !createDirectoryIfNeeded(styleDirectory) {
+                // If we can't create the directory, try exporting directly to parent folder
+                print("WARNING: Could not create style subdirectory, exporting cards directly to parent folder")
+                exportCardsForStyle(style, toDirectory: directory, currentTotal: totalExportedCards, grandTotal: totalCards, progressHandler: progressHandler)
+                totalExportedCards += style.cards.count
+                continue
             }
+            
+            // Export all cards for this style
+            exportCardsForStyle(style, toDirectory: styleDirectory, currentTotal: totalExportedCards, grandTotal: totalCards, progressHandler: progressHandler)
+            totalExportedCards += style.cards.count
         }
         
-        print("Export process completed - exported \(totalExportedCards) of \(totalCards) cards")
+        Logging.default.log("Export process completed - exported \(totalExportedCards) of \(totalCards) cards")
+    }
+    
+    // Helper method to verify directory access
+    private func verifyDirectoryAccess(_ directory: URL) -> Bool {
+        // Check if directory exists
+        var isDirectory: ObjCBool = false
+        if FileManager.default.fileExists(atPath: directory.path, isDirectory: &isDirectory) {
+            if !isDirectory.boolValue {
+                Logging.default.log("Path exists but is not a directory: \(directory.path)")
+                return false
+            }
+            
+            // Check if we can write to it
+            if !FileManager.default.isWritableFile(atPath: directory.path) {
+                Logging.default.log("Directory exists but is not writable: \(directory.path)")
+                return false
+            }
+            
+            return true
+        }
+        
+        // If directory doesn't exist, try to create it
+        return createDirectoryIfNeeded(directory)
+    }
+    
+    // Helper method to create directory if needed
+    private func createDirectoryIfNeeded(_ directory: URL) -> Bool {
+        do {
+            // Check if directory already exists
+            var isDirectory: ObjCBool = false
+            if FileManager.default.fileExists(atPath: directory.path, isDirectory: &isDirectory) {
+                if isDirectory.boolValue {
+                    // Directory exists
+                    return true
+                } else {
+                    // Path exists but is not a directory
+                    Logging.default.log("ERROR: Path exists but is not a directory: \(directory.path)")
+                    return false
+                }
+            }
+            
+            // Create the directory
+            Logging.default.log("Creating directory: \(directory.path)")
+            try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
+            
+            // Verify it was created and is writable
+            if FileManager.default.fileExists(atPath: directory.path, isDirectory: &isDirectory) &&
+               isDirectory.boolValue &&
+               FileManager.default.isWritableFile(atPath: directory.path) {
+                Logging.default.log("Successfully created directory: \(directory.path)")
+                return true
+            } else {
+                Logging.default.log("Directory was created but may not be writable: \(directory.path)")
+                return false
+            }
+        } catch {
+            Logging.default.log("ERROR creating directory \(directory.path): \(error.localizedDescription)")
+            return false
+        }
+    }
+    
+    // Helper method to export cards for a single style
+    private func exportCardsForStyle(_ style: FightingStyle, toDirectory directory: URL, currentTotal: Int, grandTotal: Int, progressHandler: @escaping (Int, Int, String) -> Void) {
+        Logging.default.log("Exporting \(style.cards.count) cards for style \(style.styleName) to \(directory.path)")
+        
+        // Report initial progress for this style
+        DispatchQueue.main.async {
+            progressHandler(currentTotal, grandTotal, style.styleName)
+        }
+        
+        // Export each card
+        for (index, card) in style.cards.enumerated() {
+            // Export the card
+            let _ = exportCard(card, styleIcon: style.sfSymbol, styleColor: style.accentColor, toDirectory: directory)
+            
+            // Report progress
+            let exportedCount = currentTotal + index + 1
+            DispatchQueue.main.async {
+                progressHandler(exportedCount, grandTotal, style.styleName)
+            }
+        }
     }
     
     // Render SwiftUI view as PNG data using NSHostingView
     private func renderViewAsPNG(_ view: some View) -> Data? {
         // For debugging
-        print("Starting to render view as PNG")
+        Logging.default.log("Starting to render view as PNG")
         
         // Create a hosting view for the SwiftUI view
         let hostingView = NSHostingView(rootView: view.frame(width: 375, height: 525))
@@ -133,7 +202,7 @@ class CardExportService {
         )
         
         if bitmap == nil {
-            print("Failed to create bitmap")
+            Logging.default.log("Failed to create bitmap")
             return nil
         }
         
@@ -149,14 +218,14 @@ class CardExportService {
             
             // Convert the bitmap to PNG data
             if let pngData = bitmap?.representation(using: .png, properties: [:]) {
-                print("Successfully rendered PNG data of size: \(pngData.count) bytes")
+                Logging.default.log("Successfully rendered PNG data of size: \(pngData.count) bytes")
                 return pngData
             } else {
-                print("Failed to create PNG representation from bitmap")
+                Logging.default.log("Failed to create PNG representation from bitmap")
                 return nil
             }
         } else {
-            print("Failed to create graphics context")
+            Logging.default.log("Failed to create graphics context")
             NSGraphicsContext.restoreGraphicsState()
             return nil
         }
