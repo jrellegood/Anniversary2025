@@ -10,9 +10,22 @@
 		99CC5CDC2D8E15AE00D5D816 /* CardLayerOuter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardLayerOuter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		99E526402DD59C3000D3F469 /* Exceptions for "CardLayerOuter" folder in "CardLayerOuter" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 99CC5CDB2D8E15AE00D5D816 /* CardLayerOuter */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		99CC5CDE2D8E15AE00D5D816 /* CardLayerOuter */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				99E526402DD59C3000D3F469 /* Exceptions for "CardLayerOuter" folder in "CardLayerOuter" target */,
+			);
 			path = CardLayerOuter;
 			sourceTree = "<group>";
 		};
@@ -255,6 +268,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CardLayerOuter/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CardLayerOuter/Info.plist;
 				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "This app needs access to load your card data and images.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -281,6 +295,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CardLayerOuter/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CardLayerOuter/Info.plist;
 				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "This app needs access to load your card data and images.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (

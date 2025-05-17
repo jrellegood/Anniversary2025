@@ -1,15 +1,27 @@
 import SwiftUI
 import UniformTypeIdentifiers
+import UserNotifications
 
 struct SettingsView: View {
     @Environment(\.presentationMode) var presentationMode
     @State private var jsonDataPath: String = AppSettings.shared.jsonDataPath?.path ?? "Not set"
     @State private var cardImagesPath: String = AppSettings.shared.cardImagesPath?.path ?? "Not set"
     
-    // Single state variable for file picking
+    // Export progress states
+    @State private var isExporting = false
+    @State private var exportProgress: Double = 0
+    @State private var currentExportStyle: String = ""
+    @State private var cardsExported: Int = 0
+    @State private var totalCardsToExport: Int = 0
+    
+    // File picking
     @State private var isPicking = false
-    // Track what we're selecting
     @State private var selectionType: SelectionType = .none
+    @State private var isExportFolderPicking = false
+    
+    // Loading state for styles
+    @State private var fightingStyles: [String: FightingStyle] = [:]
+    @State private var isLoadingStyles = false
     
     enum SelectionType {
         case none
@@ -58,6 +70,34 @@ struct SettingsView: View {
                         }
                     }
                 }
+                
+                Section(header: Text("Card Export")) {
+                    Button(action: {
+                        loadStylesAndStartExport()
+                    }) {
+                        HStack {
+                            Image(systemName: "square.and.arrow.down")
+                            Text("Export All Cards as PNG")
+                        }
+                    }
+                    .disabled(isExporting || AppSettings.shared.jsonDataPath == nil)
+                    
+                    if isExporting {
+                        VStack(alignment: .leading, spacing: 8) {
+                            Text("Exporting cards from style: \(currentExportStyle)")
+                                .font(.caption)
+                                .foregroundColor(.secondary)
+                            
+                            Text("Progress: \(cardsExported) of \(totalCardsToExport) cards")
+                                .font(.caption)
+                                .foregroundColor(.secondary)
+                            
+                            ProgressView(value: exportProgress)
+                                .progressViewStyle(LinearProgressViewStyle())
+                        }
+                        .padding(.vertical, 8)
+                    }
+                }
             }
             
             // Add the dismiss button at the bottom
@@ -68,8 +108,8 @@ struct SettingsView: View {
             .padding()
         }
         .padding()
-        .frame(width: 500, height: 300)
-        // A single fileImporter that handles both cases
+        .frame(width: 500, height: 350)
+        // File importer for settings
         .fileImporter(
             isPresented: $isPicking,
             allowedContentTypes: selectionType.allowedTypes,
@@ -77,6 +117,24 @@ struct SettingsView: View {
                 handleSelection(result)
             }
         )
+        // File export dialog
+        .fileImporter(
+            isPresented: $isExportFolderPicking,
+            allowedContentTypes: [.folder],
+            onCompletion: { result in
+                handleExportFolderSelection(result)
+            }
+        )
+        .alert(isPresented: $isLoadingStyles) {
+            Alert(
+                title: Text("Loading Styles"),
+                message: Text("Loading fighting styles for export..."),
+                primaryButton: .default(Text("OK")),
+                secondaryButton: .cancel(Text("Cancel")) {
+                    isLoadingStyles = false
+                }
+            )
+        }
     }
     
     private func handleSelection(_ result: Result<URL, Error>) {
@@ -112,5 +170,151 @@ struct SettingsView: View {
         
         // Reset selection type
         selectionType = .none
+    }
+    
+    private func loadStylesAndStartExport() {
+        guard let jsonPath = AppSettings.shared.jsonDataPath else {
+            print("JSON path not set")
+            return
+        }
+        
+        print("Loading fighting styles from: \(jsonPath.path)")
+        
+        // Load styles directly without showing the alert
+        // This alert might be blocking the UI updates
+        DispatchQueue.global(qos: .userInitiated).async {
+            let styles = CardDataService.shared.loadFightingStyles(from: jsonPath)
+            
+            DispatchQueue.main.async {
+                if let styles = styles {
+                    print("Successfully loaded \(styles.count) styles")
+                    self.fightingStyles = styles
+                    self.isExportFolderPicking = true
+                } else {
+                    print("Failed to load fighting styles")
+                }
+            }
+        }
+    }
+    
+    private func handleExportFolderSelection(_ result: Result<URL, Error>) {
+        switch result {
+        case .success(let folderURL):
+            // Start export process
+            guard folderURL.startAccessingSecurityScopedResource() else {
+                print("Failed to access the selected export folder")
+                return
+            }
+            
+            defer {
+                folderURL.stopAccessingSecurityScopedResource()
+            }
+            
+            // Start the export process
+            startCardExport(to: folderURL)
+            
+        case .failure(let error):
+            print("Error selecting export folder: \(error)")
+        }
+    }
+    
+    private func startCardExport(to directory: URL) {
+        // Reset progress tracking
+        isExporting = true
+        exportProgress = 0
+        cardsExported = 0
+        totalCardsToExport = 0
+        currentExportStyle = ""
+        
+        print("Starting card export to directory: \(directory.path)")
+        
+        // Count total cards to export
+        for (_, style) in fightingStyles {
+            totalCardsToExport += style.cards.count
+        }
+        
+        print("Total cards to export: \(totalCardsToExport)")
+        
+        // Begin export in background thread
+        DispatchQueue.global(qos: .userInitiated).async {
+            CardExportService.shared.exportAllCards(self.fightingStyles, toDirectory: directory) { exported, total, styleName in
+                // Update progress on main thread
+                DispatchQueue.main.async {
+                    // Update the UI with our progress
+                    self.cardsExported = exported
+                    self.currentExportStyle = styleName
+                    
+                    // Calculate progress as a fraction (avoiding division by zero)
+                    if total > 0 {
+                        self.exportProgress = Double(exported) / Double(total)
+                    } else {
+                        self.exportProgress = 0
+                    }
+                    
+                    print("Progress update: \(exported)/\(total) cards exported (\(self.exportProgress * 100)%), current style: \(styleName)")
+                    
+                    // Check if export is complete
+                    if exported >= total {
+                        print("Export completed")
+                        self.isExporting = false
+                        
+                        // Show completion notification using UNUserNotificationCenter
+                        let content = UNMutableNotificationContent()
+                        content.title = "Card Export Complete"
+                        content.body = "Successfully exported \(total) cards to PNG format."
+                        content.sound = UNNotificationSound.default
+                        
+                        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: nil)
+                        UNUserNotificationCenter.current().add(request) { error in
+                            if let error = error {
+                                print("Error showing notification: \(error.localizedDescription)")
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    private func renderViewAsPNG(_ view: some View) -> Data? {
+        print("Starting to render view as PNG (using alternative approach)")
+        
+        let size = NSSize(width: 375, height: 525)
+        let scaleFactor: CGFloat = 3.0
+        
+        // Create an image representation with higher resolution
+        let scaledSize = NSSize(width: size.width * scaleFactor, height: size.height * scaleFactor)
+        
+        // Create a new image
+        let image = NSImage(size: scaledSize)
+        
+        // Prepare the hosting view
+        let hostingController = NSHostingController(rootView: view.frame(width: size.width, height: size.height))
+        hostingController.view.frame = CGRect(origin: .zero, size: size)
+        
+        // Make sure the view is loaded and ready
+        _ = hostingController.view
+        
+        // Draw into the image
+        image.lockFocus()
+        
+        // Scale the context for higher resolution
+        NSGraphicsContext.current?.cgContext.scaleBy(x: scaleFactor, y: scaleFactor)
+        
+        // Draw the SwiftUI view
+        hostingController.view.layer?.render(in: NSGraphicsContext.current!.cgContext)
+        
+        image.unlockFocus()
+        
+        // Convert to PNG data
+        if let tiffData = image.tiffRepresentation,
+           let bitmapRep = NSBitmapImageRep(data: tiffData),
+           let pngData = bitmapRep.representation(using: .png, properties: [:]) {
+            print("Successfully rendered PNG data of size: \(pngData.count) bytes")
+            return pngData
+        } else {
+            print("Failed to convert NSImage to PNG data")
+            return nil
+        }
     }
 }
